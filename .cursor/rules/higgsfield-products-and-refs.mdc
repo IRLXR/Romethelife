@@ -1,0 +1,48 @@
+---
+description: Higgsfield — product doc, multi-refs, Soul prompts + how to switch Soul V2 mood (CLI vs app, model + prompt + refs).
+alwaysApply: true
+---
+
+# Higgsfield: products + multi-reference from this repo
+
+When you use **Higgsfield** for **shop merch, ads, fit checks, or product shots** (CLI or `higgsfield-*` skills), use [`higgsfield-products.md`](higgsfield-products.md) for **IDs and image links**.
+
+## 1. Hook up catalog products (Marketing Studio)
+
+- For **`marketing_studio_image`** / **`marketing_studio_video`**: look up **§11.4** and pass **`--product_ids`** (JSON file with one or more UUIDs). Don’t skip products for shop work unless the user said **no product**.
+- If you need a **presenter face** for Marketing Studio, pick an avatar from **§11.2**.
+- New shop URL → `higgsfield marketing-studio products fetch --url … --wait`, then store the returned id in `higgsfield-products.md` on the next doc pass (or tell the user to).
+- **`product-photoshoot`** / SKU fidelity: pass the product’s **primary** (or pack) image with repeated `--image <path-or-url>` plus a short `--prompt` intent; prefer **local** paths under this repo when available.
+
+## 2. Add several reference photos from this project
+
+- Pick **2–6** images from the repo (`output/`, `Ref/`, `Rome Ref-*/`, `review-app/public/assets/`, …): product shots, old frames you liked, face/hair refs, or place refs.
+- For each image the model allows, add **`--image <path>`** again (only use `--start-image` / `--end-image` / `--video` if that model supports it — check `higgsfield model get <model> --json` or `media-inputs.md`).
+- In the **prompt**, say what each ref is for in one short line (e.g. “match the jacket from image 2”).
+
+## 3. If something is missing
+
+- If the brief implies a product but **no** §11.4 row matches: **ask once** which SKU to bind, or offer **two** titled options from §11.4 by name + id.
+- If no on-disk refs exist yet: use **primary image URLs** from §11.4 table cells plus any user uploads; still aim for **≥2** distinct reference inputs when the model accepts them.
+
+## 4. Soul pictures (`text2image_soul_v2`, `soul_cinematic`) — product photos + **Soul-style prompt**
+
+- Soul **cannot** use `--product_ids`. If a **product** is part of the job, attach **pictures of that product** from **§11.4** (file path or image link). Use **`--image`** once per picture (front of shirt, back print, detail, etc.). One image is OK; two or more is better when the design has to match.
+- Always set **`--soul-id`** from **§11.1** in [`higgsfield-products.md`](higgsfield-products.md) so it stays **the same person**.
+- **Write the prompt the “Soul” way (simple):**  
+  - **`text2image_soul_v2`** → think **nice Instagram / fashion shoot**: clear pose, good light on the face, stylish, character first.  
+  - **`soul_cinematic`** → think **movie still**: stronger light/shadow, more drama, feels like a frame from a film.  
+  Say in plain words **how the light should look** and **how they should feel** (confident, relaxed, etc.). Don’t write it like a boring catalog unless they asked for that.  
+  **Easy order:** (1) vibe + light + place, (2) **clothes must match the product images you attached**, (3) pose / crop, (4) **same Soul person** from §11.1.
+
+### Switch Soul V2 “mood” (simple)
+
+- **Website / app “Soul mood” dials:** the **Cursor CLI does not read** what you set in the Higgsfield **browser UI**. If the user only changed mood **there**, either run that job **in the app**, or **copy the same idea into the prompt** (light, energy, color) for CLI. If the app gives a **preset id / JSON** for Soul mood, check whether the CLI exposes it: run **`higgsfield model get text2image_soul_v2 --json`** — if **`custom_reference_id`** is present, pass whatever shape the schema expects (often a small JSON file with `@path` if the CLI supports file params); if unsure, **ask the user** for the id or a screenshot of the setting label.
+- **CLI-only levers (this is how you “change mood” today):**  
+  1. **Pick the right Soul model** — **`text2image_soul_v2`** for lighter **social / fashion / lookbook** Soul energy; **`soul_cinematic`** when they want **heavier, more “movie frame”** Soul energy.  
+  2. **Rewrite the prompt** — swap in different **light** (day vs night vs neon vs soft window), **color grade**, **expression**, and **setting** so the vibe matches what they asked for.  
+  3. **Add a mood reference image** — optional extra **`--image`** of a still they like from this repo (lighting/color reference) *in addition to* product **`--image`**s, and say in the prompt “match lighting and color from the mood ref.”
+
+## 5. Coordination
+
+- This rule is about **tying jobs to the product doc**, **adding reference photos**, **Soul prompts that sound like Soul**, and **switching Soul mood via model + prompt + refs (and app preset ids when the CLI supports them)**. It does **not** replace `higgsfield-quality-unlimited.mdc`, `higgsfield-credit-report.mdc`, `higgsfield-to-review-app.mdc`, or the `higgsfield-*` skills.

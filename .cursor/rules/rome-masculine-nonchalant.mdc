@@ -1,0 +1,27 @@
+---
+description: When Rome is the subject (Soul, avatar, or prompt), keep him masculine and nonchalant—confident, unbothered energy.
+alwaysApply: true
+---
+
+# Rome character — masculine + nonchalant
+
+Whenever a **Higgsfield** job or creative brief uses **Rome** (by name) **or** any **Rome** asset from [`higgsfield-products.md`](higgsfield-products.md) — **Soul §11.1** (`Rome`, `RomeInfluencer`, …), **Marketing Studio custom avatar “Rome”** §11.2, or prompts like “Rome reps…” — **lock presentation** like this:
+
+## Always spell it out in the prompt
+
+- **Masculine:** clearly **male** presentation; **male-coded** wardrobe and grooming unless the user asked for something else. Do **not** default to soft commercial “everyone” styling that reads **neutral or feminine** unless the user explicitly wants that.
+- **Nonchalant:** **relaxed**, **unhurried**, **unbothered** — loose confident posture, **easy hands** (pockets, light touch, no frantic gestures), **half-smile or cool neutral**, **half-lidded or steady** eyes, **no big cheesy grin** unless they asked for hype energy. Think **quiet confidence**, not anxious or eager-to-please.
+
+## One line you can paste or adapt
+
+> “Same Rome: **masculine** Black man, **nonchalant** confident energy—relaxed jaw, unbothered expression, slow deliberate movement, old-money / street-luxury ease, **never** timid or cutesy.”
+
+Tweak skin tone, hair, outfit, and scene to match the brief; **keep** masculine + nonchalant unless the user **clearly** asks for a different vibe.
+
+## Where this applies
+
+- **`text2image_soul_v2` / `soul_cinematic`** with **`--soul-id`** for Rome or RomeInfluencer.  
+- **`marketing_studio_*`** when Rome’s **custom avatar** (or any brief that says Rome) is used.  
+- **Image-to-video / start frames** when the character is Rome.
+
+This rule does **not** change credit, quality, or product-attachment rules — it only **standardizes Rome’s on-camera personality** unless the user overrides it.

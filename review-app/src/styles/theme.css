@@ -1,0 +1,122 @@
+:root {
+  color-scheme: light;
+  --bg: #ffffff;
+  --bg-soft: #f7f8fa;
+  --bg-sunken: #eef0f4;
+  --sidebar: #fafbfc;
+  --sidebar-border: #e6e8ec;
+  --border: #e6e8ec;
+  --border-strong: #d3d7df;
+  --text: #1c1f24;
+  --text-muted: #5b6472;
+  --text-faint: #9aa1ad;
+  --accent: #3366ff;
+  --accent-hover: #2a55d8;
+  --like: #1f9d55;
+  --skip: #c83b3b;
+  --warn: #e0a72b;
+  --shadow-sm: 0 1px 2px rgba(15, 17, 21, 0.05);
+  --shadow-md: 0 6px 24px -8px rgba(15, 17, 21, 0.12), 0 2px 6px rgba(15, 17, 21, 0.05);
+  --shadow-lg: 0 16px 40px -12px rgba(15, 17, 21, 0.2);
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Inter, Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-serif: ui-serif, Georgia, "Times New Roman", serif;
+  --font-mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  --sidebar-w: 280px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --bg: #0f1115;
+    --bg-soft: #161922;
+    --bg-sunken: #1c2030;
+    --sidebar: #12141b;
+    --sidebar-border: #232634;
+    --border: #232634;
+    --border-strong: #2e3346;
+    --text: #e7e9ee;
+    --text-muted: #9aa1ad;
+    --text-faint: #5b6472;
+    --accent: #6e95ff;
+    --accent-hover: #88a8ff;
+    --like: #34c98b;
+    --skip: #ee6464;
+    --warn: #f0c052;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-sans);
+  font-size: 14px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+button {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background: transparent;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+input,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  color: var(--text);
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 6px 10px;
+}
+
+input:focus,
+textarea:focus,
+button:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border-strong);
+  border-radius: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}

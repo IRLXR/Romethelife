@@ -1,0 +1,18 @@
+﻿SURGICAL EDIT: edit <<<image_1>>> to swap ONLY the rug on the floor with the rug in <<<image_2>>>. Do not change anything else in <<<image_1>>> — preserve EVERYTHING above the floor exactly.
+
+LOCKED (do not modify in any way):
+- The man's face, skin, hair (high-volume teal-tipped dreadlock bun), pose, head angle and downward gaze.
+- His t-shirt: keep the EXACT white sleeveless ROLLING LOUD Orlando graphic tee from <<<image_1>>> with the chunky chrome arched "ROLLING LOUD" wordmark, the "Orlando" script, the row of stylized rapper portraits across the chest, the blue sky and blue city-skyline panels, the distressed raw edges, and the small "JEREMIAH TERRELL COLLECTIONS COPYRIGHTS RESERVED 2026" line. Do not redraw, do not stylize, do not change the shirt graphic. NO smiley face, NO X-eyes, NO stitched mouth on the shirt.
+- His dark cargo pants, his purple/black Nike Dunk-style sneakers.
+- The apartment: white kitchen cabinets, stainless microwave + stove, mint backsplash, gaming chair on the left, monitor + dual-screen desk, ceiling lights, walls.
+- The AQUA / TEAL LED glow: aqua under-cabinet light strip, aqua wash on the back wall, aqua desk backlight — keep all of it exactly as in <<<image_1>>>.
+- The tripod-locked head-to-toe 9:16 vertical fit-check framing — same angle, same camera height, same crop.
+
+ONLY CHANGE — the rug on the floor under his feet. Replace it with the EXACT rug from <<<image_2>>>:
+- Daisy / flower silhouette with 8 rounded petals radiating from a central black disk.
+- Petals ALTERNATE charcoal/dark-gray velvet and cream/off-white velvet, mottled marbled texture, each petal outlined with a thick DARK-GREEN / BLACK velvet piping border.
+- The CENTER is a flat black circular disk (about 30 percent of rug diameter) outlined with the same dark-green/black piping ring.
+- The BLACK CENTER DISK has a cream/off-white stitched FACE GRAPHIC: two cross-stitch "X" EYES (thick cream X shapes, upper-left and upper-right of center) and a wide horizontal Frankenstein-stitch ZIG-ZAG mouth (chunky cream wavy line with sharp peaks) — exactly as <<<image_2>>> shows. This face graphic appears ON THE RUG CENTER ONLY. It must NOT appear on any clothing, wall, monitor, or anywhere else in the image.
+- Same scale, same orientation, centered under his feet between the gaming chair and the kitchen island, oriented head-on to camera so the stitched face on the rug is clearly visible around his sneakers.
+
+Output: photoreal phone-shot fit-check look, sharp on both the original shirt graphic and the new stitched-face rug. 9:16 vertical, 4K. The shirt MUST remain the Rolling Loud Orlando rapper-portrait design from <<<image_1>>>. The face graphic MUST be on the rug center, not on the shirt.

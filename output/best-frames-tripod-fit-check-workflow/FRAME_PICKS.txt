@@ -1,0 +1,12 @@
+How these frames were chosen (for tripod locked plate + fit-check motion)
+
+PLATE = kling_fit_check_tripod_static_9x16_8s.mp4 (your room: rug, chair, desk/monitor)
+- Scene detection (threshold 0.22): no hard cuts — treat whole clip as one stable tripod plate.
+- Kept: t=0s MASTER (canonical first light), t=2s / t=4s / t=7.5s (spread through clip in case of tiny generational drift or compression differences).
+
+MOTION REF = body_model_movements_first8s.mp4 (first 8s of Body Model Movements)
+- Scene detection found edit energy through ~5.3s, then a calmer tail to 8s.
+- STABLE TAIL picks (t=5.6s, 6.5s, 7.3s): sample the longest low-cut stretch — better for consistent blocking than the jumpy open.
+- MIDSEGMENT picks (t=2.5s, 3.25s): middle of a ~1.3s–4.0s gap between detected cuts — full-body fit-check framing, useful pose keys.
+
+Use 01_* as start-image masters for your room; use 05–09 as style/pose references or prompt anchors when describing motion.

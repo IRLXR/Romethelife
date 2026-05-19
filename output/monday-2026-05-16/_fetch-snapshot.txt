@@ -1,0 +1,26 @@
+<callout icon="📄" color="blue_bg">
+	Synced from `output/monday-2026-05-16/` · May 16, 2026 · headings and tables render as normal Notion text (not a code block).
+</callout>
+<callout icon="🌙" color="red_bg">
+	**6–9 PM · Haul reveal (Hero B tracksuit)** — full prompts **start here** (Mon-Eve-1 … Mon-Eve-5). GRWM + 3-ways + swap-ins are below.
+</callout>
+## 6–9 PM · Haul reveal — Rome style (Hero B)
+**Not influencer unboxing.** Premium delivery energy: matte **exotic at night** or **penthouse marble**—one clean open, print fidelity, full-set proof, try-on without performance. Slow hands, **no smile**, no couch/kitchen/bedroom, no trunk POV spam, no neon alley, no yellow-cart point-down.
+**Product:** Graphic hoodie + sweatpants tracksuit (bold abstract print — match product ref) · `2b82c7d9-ec31-4d96-9188-8fb884599b68`  
+**Model:** `kling_3_0` or `seedance_2_0` (box motion + fabric) · still frames → `text2image_soul_v2` + Rome soul `14911b81-0038-4fa2-9b93-2198b46ca808`  
+**Rome core (always):** Same Rome: **masculine** Black man, **teal-tipped dreadlock bun**, same face. Relaxed jaw, **half-lidded steady eyes**, cool neutral, **NO smile**, never timid or cutesy. Easy hands—one tape pull, one zip, drawstring tug max.
+**Settings (alternate across the 5):**
+- **Penthouse:** Marble console or low table, Brickell bokeh through glass, cool teal ambient, 9:16 tripod.
+- **Exotic car:** Matte black supercar at curb, flat pack or bag beside door line, city rim on print.
+**Haul viral elements (pick exactly 3 per video):**
+1. **Cinematic cold open** — package silhouette / skyline before hands touch box
+2. **Satisfying open** — one tape slice or one lid lift—no chaotic rip montage
+3. **Print hero beat** — graphic fills frame 1–2s (SKU must match listing)
+4. **Fabric proof macro** — one fleece rub or one waistband snap—ASMR without voice
+5. **Full-set proof** — hoodie + pants shown together before try-on (“one cart” story)
+6. **Silent try-on authority** — step in, zip once, hold still—no mirror selfie grin
+7. **Loop on stillness** — end on same lean / same glass reflection as open
+**Avoid:** POV from inside trunk, couch unboxing, price-sticker hype, 360 spin, “WORTH IT” scream text, frantic tissue ASMR, performing for camera.
+---
+### Mon-Eve-1 · Penthouse marble — clean rip-open *(quick pick)*
+**Hook (0–2s):** **Brickell bokeh** in glass behind a sealed bag on **white marble**—0.5s still; Rome’s hands enter frame, **one** box cutter slice through tape (weighted, slow).

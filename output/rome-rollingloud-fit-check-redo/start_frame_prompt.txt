@@ -1,0 +1,9 @@
+﻿Use <<<image_1>>> as the scene + person reference, and <<<image_2>>> as the t-shirt graphic reference.
+
+Outfit-swap edit. Keep the man and the environment in <<<image_1>>> EXACTLY the same: same Black male with the high-volume teal-tipped dreadlock bun, same skin tone, same face, in the same modern open-plan apartment (white kitchen with stainless microwave + stove behind him, soft pink ceiling glow, white cabinets, black gaming chair with white side panels on the left, red LED desk backlight, dark monitor on the desk, light grey floor, large flower-shaped black-and-white cowhide rug under his feet, dark cargo pants, purple/black Nike Dunk-style sneakers). Tripod-locked head-to-toe 9:16 vertical fit-check framing, same camera height and same composition as <<<image_1>>>.
+
+Replace only his washed grey oversized tee with the EXACT graphic tee shown in <<<image_2>>>: slightly oversized white short-sleeve / sleeveless tee with raw-cut distressed edges, featuring a large color chest graphic showing the "ROLLING LOUD Orlando" festival design — blue sky panel with a row of stylized rapper portraits (one in a red bikini top, others in red caps, sunglasses, jewelry), a blue city-skyline silhouette underneath, the chunky chrome arched "ROLLING LOUD" wordmark and "Orlando" script across the bottom, with the small "JEREMIAH TERRELL COLLECTIONS COPYRIGHTS RESERVED 2026" line beneath. Reproduce the graphic faithfully — colors, placement, distressed edges, and arched text. Center the graphic on his chest.
+
+Pose: looking DOWN at his outfit, chin tucked toward his chest, eyes cast down toward the floor / waist area. Do NOT make him look up, do NOT make him look at the camera, do NOT lift his head. Relaxed arms at sides, slight weight on one foot, neutral fit-check stance.
+
+Photoreal phone-shot fit-check look, slightly soft natural indoor light, 9:16, sharp on the shirt graphic. No empty scene.

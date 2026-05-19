@@ -1,0 +1,69 @@
+---
+description: Push every Higgsfield generation into the review-app swipe deck automatically
+alwaysApply: true
+---
+
+# Higgsfield → Review App Auto-Intake
+
+After **every** Higgsfield job that produces a downloadable result (image or video), automatically push the asset URL into the review webapp so the user can swipe-review it without leaving Cursor.
+
+## How it works
+
+The review app polls `review-app/public/intake.json` every 2 seconds for new URLs. The Cursor agent appends entries to that file after each generation.
+
+## After every completed Higgsfield job
+
+1. **Read** the current `review-app/public/intake.json` (create it with `[]` if missing).
+2. **Append** a new entry for each result URL:
+
+```json
+{
+  "url": "<CDN or local URL of the result>",
+  "label": "<short filename or description>",
+  "model": "<model name, e.g. seedance_2_0>",
+  "jobId": "<higgsfield job ID>",
+  "timestamp": <Date.now() epoch ms>
+}
+```
+
+3. **Write** the updated array back to `review-app/public/intake.json`.
+4. If the result was **downloaded to local disk** (e.g. `output/…/file.png`), **also copy** the file into `review-app/public/assets/` and use the URL `/assets/<filename>` in the entry so the Vite dev server can serve it directly.
+
+## URL formats the app accepts
+
+- **CDN URLs** from Higgsfield (https://…) — works immediately if the URL has an image/video extension.
+- **Local dev-served files** — copy into `review-app/public/assets/` and reference as `/assets/filename.ext`.
+
+## Example
+
+After generating an image with nano_banana:
+
+```powershell
+# Download result
+higgsfield download <job_id> -o output/my-gen/result.png
+
+# Copy to review-app public assets
+Copy-Item output/my-gen/result.png review-app/public/assets/result.png
+```
+
+Then update `review-app/public/intake.json`:
+
+```json
+[
+  {
+    "url": "/assets/result.png",
+    "label": "result.png",
+    "model": "nano_banana",
+    "jobId": "abc-123",
+    "timestamp": 1747000000000
+  }
+]
+```
+
+## Rules
+
+- **Always append**, never overwrite previous entries — the app deduplicates by URL.
+- If the review-app dev server is not running, mention it: "Start the review app with `cd review-app && npm run dev` to see your generations."
+- Create `review-app/public/assets/` if it does not exist before the first copy.
+- Keep the JSON valid — read → parse → push → write.
+- This is **automatic** — do not ask the user whether to push to the review app. Just do it after every generation.

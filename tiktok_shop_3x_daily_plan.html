@@ -1,0 +1,275 @@
+
+<style>
+  * { box-sizing: border-box; }
+  .page { padding: 1rem 0; }
+  .page-title { font-size: 18px; font-weight: 500; margin: 0 0 2px; color: var(--color-text-primary); }
+  .page-sub { font-size: 13px; color: var(--color-text-secondary); margin: 0 0 20px; }
+  .day-block { background: var(--color-background-primary); border: 0.5px solid var(--color-border-tertiary); border-radius: var(--border-radius-lg); margin-bottom: 12px; overflow: hidden; }
+  .day-header { display: flex; align-items: center; gap: 10px; padding: 12px 16px 10px; border-bottom: 0.5px solid var(--color-border-tertiary); }
+  .day-label { font-size: 13px; font-weight: 500; color: var(--color-text-primary); }
+  .vid-count { font-size: 11px; color: var(--color-text-tertiary); margin-left: auto; }
+  .slot-row { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1px; background: var(--color-border-tertiary); }
+  .slot { background: var(--color-background-primary); padding: 12px 14px; }
+  .slot-time { font-size: 11px; font-weight: 500; margin-bottom: 6px; }
+  .slot-title { font-size: 13px; font-weight: 500; color: var(--color-text-primary); margin-bottom: 4px; }
+  .slot-format { font-size: 11px; color: var(--color-text-secondary); margin-bottom: 6px; }
+  .slot-tool { display: inline-flex; align-items: center; gap: 4px; font-size: 10px; padding: 2px 6px; border-radius: 4px; border: 0.5px solid var(--color-border-tertiary); color: var(--color-text-secondary); background: var(--color-background-secondary); }
+  .tip { font-size: 11px; color: var(--color-text-secondary); padding: 8px 14px; background: var(--color-background-secondary); border-top: 0.5px solid var(--color-border-tertiary); }
+
+  .t-purple { color: #3C3489; } .t-teal { color: #085041; } .t-coral { color: #712B13; }
+  .t-amber { color: #633806; } .t-pink { color: #72243E; } .t-blue { color: #0C447C; }
+  .t-green { color: #27500A; }
+  @media (prefers-color-scheme: dark) {
+    .t-purple { color: #CECBF6; } .t-teal { color: #9FE1CB; } .t-coral { color: #F5C4B3; }
+    .t-amber { color: #FAC775; } .t-pink { color: #F4C0D1; } .t-blue { color: #B5D4F4; }
+    .t-green { color: #C0DD97; }
+  }
+  .dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+  .dot-purple { background: #7F77DD; } .dot-teal { background: #1D9E75; }
+  .dot-coral { background: #D85A30; } .dot-amber { background: #BA7517; }
+  .dot-pink { background: #D4537E; } .dot-blue { background: #378ADD; }
+  .dot-green { background: #639922; }
+
+  .legend { display: flex; flex-wrap: wrap; gap: 8px 16px; margin-bottom: 16px; }
+  .legend-item { display: flex; align-items: center; gap: 6px; font-size: 11px; color: var(--color-text-secondary); }
+
+  .metrics { display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap: 8px; margin-top: 16px; }
+  .metric { background: var(--color-background-secondary); border-radius: var(--border-radius-md); padding: 10px 12px; }
+  .metric-val { font-size: 20px; font-weight: 500; color: var(--color-text-primary); }
+  .metric-label { font-size: 11px; color: var(--color-text-secondary); margin-top: 2px; }
+</style>
+
+<div class="page">
+  <h2 class="sr-only">TikTok Shop 3-videos-per-day weekly ad plan using Higgsfield</h2>
+  <p class="page-title">TikTok Shop · 3 videos/day plan</p>
+  <p class="page-sub">21 videos per week · Morning, Afternoon & Evening slots · Higgsfield + TikTok</p>
+
+  <div class="legend">
+    <div class="legend-item"><span class="dot dot-purple"></span>UGC</div>
+    <div class="legend-item"><span class="dot dot-teal"></span>Tutorial</div>
+    <div class="legend-item"><span class="dot dot-coral"></span>Unboxing</div>
+    <div class="legend-item"><span class="dot dot-amber"></span>Product Review</div>
+    <div class="legend-item"><span class="dot dot-pink"></span>Hyper Motion</div>
+    <div class="legend-item"><span class="dot dot-blue"></span>Virtual Try-On</div>
+    <div class="legend-item"><span class="dot dot-green"></span>TV Spot / Brand</div>
+  </div>
+
+  <div class="day-block">
+    <div class="day-header">
+      <span class="day-label">Monday</span>
+      <span class="vid-count">3 videos</span>
+    </div>
+    <div class="slot-row">
+      <div class="slot">
+        <div class="slot-time t-purple">7–9 AM</div>
+        <div class="slot-title">Morning hook</div>
+        <div class="slot-format">UGC · relatable opener</div>
+        <span class="slot-tool"><i class="ti ti-player-play" style="font-size:10px" aria-hidden="true"></i> Marketing Studio</span>
+      </div>
+      <div class="slot">
+        <div class="slot-time t-teal">12–2 PM</div>
+        <div class="slot-title">How it works</div>
+        <div class="slot-format">Tutorial · step-by-step</div>
+        <span class="slot-tool"><i class="ti ti-player-play" style="font-size:10px" aria-hidden="true"></i> Marketing Studio</span>
+      </div>
+      <div class="slot">
+        <div class="slot-time t-coral">6–9 PM</div>
+        <div class="slot-title">Unboxing reveal</div>
+        <div class="slot-format">Unboxing · suspense hook</div>
+        <span class="slot-tool"><i class="ti ti-player-play" style="font-size:10px" aria-hidden="true"></i> Kling 3.0</span>
+      </div>
+    </div>
+    <div class="tip"><i class="ti ti-bulb" style="font-size:12px; vertical-align:-1px; margin-right:4px" aria-hidden="true"></i>Monday sets the week — lead with a strong UGC hook to warm the algorithm early.</div>
+  </div>
+
+  <div class="day-block">
+    <div class="day-header">
+      <span class="day-label">Tuesday</span>
+      <span class="vid-count">3 videos</span>
+    </div>
+    <div class="slot-row">
+      <div class="slot">
+        <div class="slot-time t-amber">7–9 AM</div>
+        <div class="slot-title">5-star proof</div>
+        <div class="slot-format">Product Review · real quotes</div>
+        <span class="slot-tool"><i class="ti ti-player-play" style="font-size:10px" aria-hidden="true"></i> Marketing Studio</span>
+      </div>
+      <div class="slot">
+        <div class="slot-time t-purple">12–2 PM</div>
+        <div class="slot-title">Scroll stopper</div>
+        <div class="slot-format">UGC · trending audio</div>
+        <span class="slot-tool"><i class="ti ti-player-play" style="font-size:10px" aria-hidden="true"></i> Marketing Studio</span>
+      </div>
+      <div class="slot">
+        <div class="slot-time t-pink">6–9 PM</div>
+        <div class="slot-title">Product in motion</div>
+        <div class="slot-format">Hyper Motion · close-up</div>
+        <span class="slot-tool"><i class="ti ti-player-play" style="font-size:10px" aria-hidden="true"></i> Seedance 2.0</span>
+      </div>
+    </div>
+    <div class="tip"><i class="ti ti-bulb" style="font-size:12px; vertical-align:-1px; margin-right:4px" aria-hidden="true"></i>Lead with reviews in the morning — commuters are the best conversion audience.</div>
+  </div>
+
+  <div class="day-block">
+    <div class="day-header">
+      <span class="day-label">Wednesday</span>
+      <span class="vid-count">3 videos</span>
+    </div>
+    <div class="slot-row">
+      <div class="slot">
+        <div class="slot-time t-teal">7–9 AM</div>
+        <div class="slot-title">Before vs after</div>
+        <div class="slot-format">Tutorial · transformation</div>
+        <span class="slot-tool"><i class="ti ti-player-play" style="font-size:10px" aria-hidden="true"></i> Marketing Studio</span>
+      </div>
+      <div class="slot">
+        <div class="slot-time t-blue">12–2 PM</div>
+        <div class="slot-title">Try it on</div>
+        <div class="slot-format">UGC Virtual Try-On</div>
+        <span class="slot-tool"><i class="ti ti-player-play" style="font-size:10px" aria-hidden="true"></i> Marketing Studio</span>
+      </div>
+      <div class="slot">
+        <div class="slot-time t-coral">6–9 PM</div>
+        <div class="slot-title">Gift-worthy reveal</div>
+        <div class="slot-format">Unboxing · lifestyle setting</div>
+        <span class="slot-tool"><i class="ti ti-player-play" style="font-size:10px" aria-hidden="true"></i> Kling 3.0</span>
+      </div>
+    </div>
+    <div class="tip"><i class="ti ti-bulb" style="font-size:12px; vertical-align:-1px; margin-right:4px" aria-hidden="true"></i>Mid-week engagement peaks around lunch — Virtual Try-On drives saves and shares.</div>
+  </div>
+
+  <div class="day-block">
+    <div class="day-header">
+      <span class="day-label">Thursday</span>
+      <span class="vid-count">3 videos</span>
+    </div>
+    <div class="slot-row">
+      <div class="slot">
+        <div class="slot-time t-purple">7–9 AM</div>
+        <div class="slot-title">POV hook</div>
+        <div class="slot-format">UGC · relatable scenario</div>
+        <span class="slot-tool"><i class="ti ti-player-play" style="font-size:10px" aria-hidden="true"></i> Marketing Studio</span>
+      </div>
+      <div class="slot">
+        <div class="slot-time t-amber">12–2 PM</div>
+        <div class="slot-title">Community says</div>
+        <div class="slot-format">Product Review · compilation</div>
+        <span class="slot-tool"><i class="ti ti-player-play" style="font-size:10px" aria-hidden="true"></i> Marketing Studio</span>
+      </div>
+      <div class="slot">
+        <div class="slot-time t-green">6–9 PM</div>
+        <div class="slot-title">Brand moment</div>
+        <div class="slot-format">TV Spot · cinematic feel</div>
+        <span class="slot-tool"><i class="ti ti-player-play" style="font-size:10px" aria-hidden="true"></i> Marketing Studio</span>
+      </div>
+    </div>
+    <div class="tip"><i class="ti ti-bulb" style="font-size:12px; vertical-align:-1px; margin-right:4px" aria-hidden="true"></i>Thursday evening primes buyers — the TV Spot builds brand trust before the weekend.</div>
+  </div>
+
+  <div class="day-block">
+    <div class="day-header">
+      <span class="day-label">Friday</span>
+      <span class="vid-count">3 videos</span>
+    </div>
+    <div class="slot-row">
+      <div class="slot">
+        <div class="slot-time t-teal">7–9 AM</div>
+        <div class="slot-title">Quick how-to</div>
+        <div class="slot-format">Tutorial · under 30 secs</div>
+        <span class="slot-tool"><i class="ti ti-player-play" style="font-size:10px" aria-hidden="true"></i> Marketing Studio</span>
+      </div>
+      <div class="slot">
+        <div class="slot-time t-pink">12–2 PM</div>
+        <div class="slot-title">Weekend deal teaser</div>
+        <div class="slot-format">Hyper Motion · offer overlay</div>
+        <span class="slot-tool"><i class="ti ti-player-play" style="font-size:10px" aria-hidden="true"></i> Seedance 2.0</span>
+      </div>
+      <div class="slot">
+        <div class="slot-time t-purple">6–9 PM</div>
+        <div class="slot-title">FOMO closer</div>
+        <div class="slot-format">UGC · urgency hook</div>
+        <span class="slot-tool"><i class="ti ti-player-play" style="font-size:10px" aria-hidden="true"></i> Marketing Studio</span>
+      </div>
+    </div>
+    <div class="tip"><i class="ti ti-bulb" style="font-size:12px; vertical-align:-1px; margin-right:4px" aria-hidden="true"></i>Friday = highest purchase intent. Stack urgency — deal teaser at noon, FOMO close at night.</div>
+  </div>
+
+  <div class="day-block">
+    <div class="day-header">
+      <span class="day-label">Saturday</span>
+      <span class="vid-count">3 videos</span>
+    </div>
+    <div class="slot-row">
+      <div class="slot">
+        <div class="slot-time t-coral">9–11 AM</div>
+        <div class="slot-title">Weekend unboxing</div>
+        <div class="slot-format">Unboxing · gift angle</div>
+        <span class="slot-tool"><i class="ti ti-player-play" style="font-size:10px" aria-hidden="true"></i> Kling 3.0</span>
+      </div>
+      <div class="slot">
+        <div class="slot-time t-blue">2–4 PM</div>
+        <div class="slot-title">Style it your way</div>
+        <div class="slot-format">UGC Virtual Try-On</div>
+        <span class="slot-tool"><i class="ti ti-player-play" style="font-size:10px" aria-hidden="true"></i> Marketing Studio</span>
+      </div>
+      <div class="slot">
+        <div class="slot-time t-amber">7–9 PM</div>
+        <div class="slot-title">Last chance deal</div>
+        <div class="slot-format">Product Review · deal CTA</div>
+        <span class="slot-tool"><i class="ti ti-player-play" style="font-size:10px" aria-hidden="true"></i> Marketing Studio</span>
+      </div>
+    </div>
+    <div class="tip"><i class="ti ti-bulb" style="font-size:12px; vertical-align:-1px; margin-right:4px" aria-hidden="true"></i>Saturday shoppers browse in the morning and buy in the evening. Cover both windows.</div>
+  </div>
+
+  <div class="day-block">
+    <div class="day-header">
+      <span class="day-label">Sunday</span>
+      <span class="vid-count">3 videos</span>
+    </div>
+    <div class="slot-row">
+      <div class="slot">
+        <div class="slot-time t-green">10 AM–12 PM</div>
+        <div class="slot-title">Brand story</div>
+        <div class="slot-format">TV Spot · emotional hook</div>
+        <span class="slot-tool"><i class="ti ti-player-play" style="font-size:10px" aria-hidden="true"></i> Marketing Studio</span>
+      </div>
+      <div class="slot">
+        <div class="slot-time t-teal">2–4 PM</div>
+        <div class="slot-title">Week recap tips</div>
+        <div class="slot-format">Tutorial · "you need this" angle</div>
+        <span class="slot-tool"><i class="ti ti-player-play" style="font-size:10px" aria-hidden="true"></i> Marketing Studio</span>
+      </div>
+      <div class="slot">
+        <div class="slot-time t-pink">7–9 PM</div>
+        <div class="slot-title">Sunday scroll bait</div>
+        <div class="slot-format">Hyper Motion · visual wow</div>
+        <span class="slot-tool"><i class="ti ti-player-play" style="font-size:10px" aria-hidden="true"></i> Seedance 2.0</span>
+      </div>
+    </div>
+    <div class="tip"><i class="ti ti-bulb" style="font-size:12px; vertical-align:-1px; margin-right:4px" aria-hidden="true"></i>Sunday evening is peak mindless scroll time — a visually striking Hyper Motion vid stops thumbs cold.</div>
+  </div>
+
+  <div class="metrics">
+    <div class="metric">
+      <div class="metric-val">21</div>
+      <div class="metric-label">Videos per week</div>
+    </div>
+    <div class="metric">
+      <div class="metric-val">84</div>
+      <div class="metric-label">Videos per month</div>
+    </div>
+    <div class="metric">
+      <div class="metric-val">7</div>
+      <div class="metric-label">Formats in rotation</div>
+    </div>
+    <div class="metric">
+      <div class="metric-val">3</div>
+      <div class="metric-label">Post times daily</div>
+    </div>
+  </div>
+
+  <div style="margin-top: 12px; background: var(--color-background-secondary); border-radius: var(--border-radius-md); padding: 12px 14px; font-size: 12px; color: var(--color-text-secondary);">
+    <strong style="color: var(--color-text-primary); font-weight: 500;">Weekly production workflow</strong> — batch-generate all 21 videos on Sunday using Higgsfield. Export at 1080p 9:16. Queue posts in TikTok Studio for the week. Check analytics every Friday and rotate the top 2 performing formats into paid Spark Ads.
+  </div>
+</div>

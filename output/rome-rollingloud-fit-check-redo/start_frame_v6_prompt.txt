@@ -1,0 +1,22 @@
+﻿Image edit task. Source: <<<image_1>>>. Reference: <<<image_2>>>.
+
+Take <<<image_1>>> as the base and keep it 100% identical EXCEPT for one change: add a stitched face graphic onto the black center disk of the flower-shaped rug on the floor.
+
+PRESERVE EXACTLY from <<<image_1>>>:
+- Man's face, teal-tipped dreadlock bun, downward gaze and pose.
+- His WHITE SLEEVELESS GRAPHIC TEE with the existing "ROLLING LOUD Orlando" rapper-portrait print (chrome arched wordmark, Orlando script, row of stylized rapper portraits over a blue sky and blue city-skyline panel, distressed raw edges, JEREMIAH TERRELL COLLECTIONS 2026 small text line). Do not alter, restyle, or replace this shirt graphic. No stitched faces on the shirt.
+- Dark cargo pants and purple/black Nike Dunk sneakers.
+- Apartment: white kitchen cabinets, stainless microwave + stove, mint backsplash, gaming chair on the left, monitor and desk, ceiling lights, walls.
+- The AQUA / TEAL LED glow on the back wall, under the kitchen cabinets, and at the desk backlight.
+- Flower-shaped rug's silhouette (8 rounded petals alternating charcoal and cream with dark-green/black piping).
+- Tripod-locked 9:16 vertical fit-check framing, same crop, same angle, same camera height.
+
+ONLY EDIT:
+The flower rug's central black disk currently has NO graphic. Paint onto it the stitched FACE design from <<<image_2>>>:
+- Two cream / off-white CROSS-STITCH "X" eyes in the upper area of the black disk (one to the left, one to the right of center). Each X is a thick chunky yarn-stitched cream mark.
+- One wide horizontal FRANKENSTEIN ZIG-ZAG MOUTH across the lower half of the disk, in matching cream stitching. The mouth is a chunky wavy line with sharp peaks like a sewn-together-mouth.
+- Confine the graphic strictly to the black center disk of the rug. It must not appear on the petals, on the floor, on the man, on his clothing, on the walls, or anywhere else.
+
+The stitched face goes ONLY on the rug, NEVER on the shirt or anywhere else. The shirt must keep the Rolling Loud rapper-portrait print.
+
+Output 9:16 vertical, photoreal phone-shot fit-check look, high quality.

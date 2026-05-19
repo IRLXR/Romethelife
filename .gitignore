@@ -1,0 +1,22 @@
+# Secrets
+.env
+.env.local
+.env.*.local
+
+# Dependencies & build
+node_modules/
+**/node_modules/
+dist/
+.tsbuild-node/
+*.tsbuildinfo
+
+# OS / editor
+.DS_Store
+Thumbs.db
+
+# Installers & duplicate archives (unpacked folders kept)
+Notion Setup*.exe
+Rome Ref-*.zip
+
+# Local scratch (regenerable)
+tmp_check.*

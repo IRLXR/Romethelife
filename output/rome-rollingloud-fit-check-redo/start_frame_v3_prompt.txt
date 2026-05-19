@@ -1,0 +1,18 @@
+﻿Use <<<image_1>>> as the scene + person + lighting reference, and <<<image_2>>> as the floor-rug reference.
+
+Keep <<<image_1>>> EXACTLY for everything above the floor: same Black male (high-volume teal-tipped dreadlock bun, same face), same white sleeveless ROLLING LOUD Orlando graphic tee (chunky chrome arched "ROLLING LOUD" wordmark, "Orlando" script, row of stylized rapper portraits, blue sky and blue city-skyline panels, distressed raw edges, the small "JEREMIAH TERRELL COLLECTIONS COPYRIGHTS RESERVED 2026" line), same dark cargo pants, same purple/black Nike Dunk-style sneakers. Same apartment, same monitor/desk/gaming chair on the left, same kitchen (white cabinets, stainless microwave, stove, mint backsplash). Keep the AQUA / TEAL LED glow exactly as in <<<image_1>>>: aqua under-cabinet light strip, aqua wash on the back wall, aqua desk backlight. Tripod-locked head-to-toe 9:16 vertical fit-check framing identical to <<<image_1>>>.
+
+REPLACE THE RUG on the floor with the EXACT rug from <<<image_2>>>. This is the critical fix. Reproduce all of these features faithfully:
+- Daisy-flower silhouette with 8 rounded petals radiating from a central black disk.
+- Petals alternate CHARCOAL/DARK-GRAY (mottled, marbled velvet texture) and CREAM/OFF-WHITE (slightly distressed, marbled texture).
+- Each petal is outlined with a thick DARK-GREEN / BLACK velvet piping border.
+- The CENTER is a flat black circular disk that takes up roughly 30 percent of the rug's diameter. The center is also outlined with the same dark-green/black piping ring.
+- On the BLACK CENTER DISK there is a stitched cream/off-white FACE GRAPHIC, embroidery / felt-cutout style. The face consists of:
+  • Two EYES rendered as CROSS-STITCH / "X" MARKS: thick cream X shapes, one upper-left and one upper-right of the center, like sewn-shut eyes.
+  • A wide, mouth-shaped ZIG-ZAG / STITCHED LINE running horizontally across the lower middle of the disk — like a Frankenstein-stitch mouth, drawn as a chunky cream/white wavy line with sharp peaks.
+  • Optional additional small X stitches near the mouth — match exactly what <<<image_2>>> shows.
+- Same scale and orientation as in <<<image_1>>> — rug centered on the floor under his feet between the gaming chair and the kitchen island, oriented head-on to camera so the face on the rug is clearly visible behind/around his sneakers.
+
+Pose: he is looking DOWN at his outfit, chin tucked to chest, eyes cast down toward the rug. Do NOT make him look up, do NOT lift his head, do NOT make him look at the camera. Relaxed arms at sides, slight weight on one foot, neutral fit-check stance.
+
+Photoreal phone-shot fit-check look, sharp on the shirt graphic AND on the rug's stitched face design. 9:16 vertical, 4K. The rug face design MUST be visible and clearly readable.

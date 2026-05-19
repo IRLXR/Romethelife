@@ -1,0 +1,28 @@
+---
+description: Review · Swipe webapp lives in review-app/
+alwaysApply: true
+---
+
+# Review · Swipe webapp
+
+The Tinder-style media reviewer lives at [`review-app/`](review-app/).
+
+It is a browser-only Vite + React + TypeScript SPA for swiping through generated images and videos, applying overall and per-element star ratings, and attaching replacement reference assets (URLs or files) per element.
+
+Run it with:
+
+```bash
+cd review-app
+npm install
+npm run dev
+```
+
+When the user mentions "the reviewer", "the swipe app", "rate this batch", "the review webapp", "Tinder app", "star ratings", or anything about choosing keepers vs rejects with replacement refs, work inside `review-app/`. Do not scaffold a new app.
+
+Key files:
+
+- [`review-app/src/store/useReview.ts`](review-app/src/store/useReview.ts) — Zustand store, IndexedDB persistence, manifest export/import.
+- [`review-app/src/components/DeckView.tsx`](review-app/src/components/DeckView.tsx) — swipe gestures + keyboard shortcuts.
+- [`review-app/src/components/CriterionRow.tsx`](review-app/src/components/CriterionRow.tsx) — per-element stars + reference attachment slot.
+- [`review-app/src/components/GalleryView.tsx`](review-app/src/components/GalleryView.tsx) — filterable liked gallery + CSV/JSON export.
+- [`review-app/README.md`](review-app/README.md) — user-facing docs and caveats.

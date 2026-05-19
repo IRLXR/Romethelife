@@ -1,0 +1,146 @@
+### Mon-W-PM-2 · Exotic + penthouse — same set · prestige locations
+
+**Hook (0–2s):** **Matte black car door line**; Rome in full KZZ set beside paint—hard cut to penthouse sofa same outfit.
+
+| # | Rome viral element | Execution |
+| --- | ------------------ | --------- |
+| 1 | **Cinematic cold open** | Car → interior (not three random locations) |
+| 2 | **One hero garment** | Matching set locked |
+| 3 | **Silent authority** | Off-lens gaze both beats |
+
+**Shot-by-shot (10s):**  
+0–2s: Hook car lean, colorblock sharp in rim light.  
+2–5s **Look 1 — Curb:** Full body at car, hands in hoodie pocket, hold 1s.  
+5–8s **Look 2 — Penthouse walk:** 3 slow steps from glass toward lens, panels catch teal edge, hold 1s.  
+8–10s **Look 3 — Penthouse still:** Stop at marble, cool neutral, drawstring **one** tug, hold 1s.  
+**No** court/airport/café. 9:16.
+
+**On-screen text:** none  
+**Caption:** Same set · two scenes  
+**Audio:** traffic → ambient
+
+---
+
+### Mon-W-PM-3 · Penthouse — hood up · hood down · jacket over
+
+**Hook (0–2s):** Rome **hood down**, face in rim light; he **pulls hood up** once—slow—that’s the hook before Look 3.
+
+| # | Rome viral element | Execution |
+| --- | ------------------ | --------- |
+| 1 | **One ritual gesture** | Hood up = single motion |
+| 2 | **One hero garment** | KZZ set unchanged underneath |
+| 3 | **Head-to-toe read** | Face framing changes, full body each |
+
+**Shot-by-shot (9s):**  
+0–2s: Hook hood-up motion (one pull).  
+2–4s **Look 1 — Hood up:** Hood up, shadow on jaw, still nonchalant, hold 1s.  
+4–6s **Look 2 — Hood down:** Hood down, bun + teal tips visible, hold 1s.  
+6–9s **Look 3 — Jacket over:** **Open black lightweight jacket** over set (not gym track jacket), hands pockets, hold 1s.  
+9:16 penthouse.
+
+**On-screen text:** none  
+**Caption:** Frame the face  
+**Audio:** low pad
+
+---
+
+### Mon-W-PM-4 · Penthouse split — colorblock variant triptych
+
+**Hook (0–2s):** **Three vertical panels**—same pose, three KZZ colorways (navy/white, grey/black, etc. per listing).
+
+| # | Rome viral element | Execution |
+| --- | ------------------ | --------- |
+| 1 | **Cinematic cold open** | Triptych before zip motion |
+| 2 | **One hero garment** | Same cut; color only variable |
+| 3 | **Silent authority** | Identical face all panels |
+
+**Shot-by-shot (9s):**  
+0–2s: Hook static panels + shared skyline.  
+2–6s: All panels—zip to **same mid point**, 45° then front, color panels sharp.  
+6–9s: Hold all three 1s. 9:16.
+
+**On-screen text:** variant names tiny (optional)  
+**Caption:** Pick your block  
+**Audio:** ambient
+
+---
+
+### Mon-W-PM-5 · Exotic + penthouse — accessory pivot (set locked)
+
+**Hook (0–2s):** Full KZZ set at car—**no accessories**; cut to penthouse with **crossbody** already on—accessory story only.
+
+| # | Rome viral element | Execution |
+| --- | ------------------ | --------- |
+| 1 | **One hero garment** | Set constant all three |
+| 2 | **One ritual gesture** | Strap hand / headphone drop / sunglasses on—one each |
+| 3 | **Hard cut on stillness** | 1s hold per accessory beat |
+
+**Shot-by-shot (9s):**  
+0–2s: Hook bare at car.  
+2–4s **Look 1 — Bare:** Car lean, no bag, no shades, hold 1s.  
+4–6s **Look 2 — Carry:** Penthouse + **low-profile crossbody**, one hand on strap, hold 1s.  
+6–9s **Look 3 — Listen:** **Headphones around neck** (not phone scroll) or sunglasses **on** with slow push—pick one, hold 1s.  
+**No** mirror selfie trope. 9:16.
+
+**On-screen text:** none  
+**Caption:** Accessories optional  
+**Audio:** city hum
+
+### 6–9 PM · Set haul (5)
+
+1. **Mon-W-Eve-1** — Box opens: hoodie on top, joggers folded, colorblock panels to camera. 9:16, 10s.
+2. **Mon-W-Eve-2** — Rome on couch, peels tissue, holds both pieces together—“one cart outfit.” 9:16, 9s.
+3. **Mon-W-Eve-3** — Zip pull ASMR macro → full-body fit check spin. 9:16, 8s.
+4. **Mon-W-Eve-4** — Side-by-side mismatched old hoodie+joggers vs KZZ matching set. 9:16, 9s.
+5. **Mon-W-Eve-5** — Basketball under arm optional; full set + “free shipping” safe text zone lower third. 9:16, 10s.
+```
+
+## notion-monday-content.md (archive snapshot)
+
+```markdown
+<callout icon="📝" color="purple_bg">
+	**Monday · 5 prompts per slot** · Hero A/B on schedule · Support swap-ins for swaps & B-roll · 9:16 · 8–10s · Repo: `output/monday-2026-05-16/prompts.md`
+</callout>
+<callout icon="👤" color="gray_bg">
+	**Rome (on-camera):** masculine Black man, nonchalant confident energy—relaxed jaw, unbothered expression, slow deliberate movement, old-money / street-luxury ease, never timid or cutesy.
+</callout>
+**Quick pick:** AM = Mon-AM-3 · PM = Mon-PM-1 · Eve = Mon-Eve-4
+---
+## Hero lineup (scheduled Monday)
+### 7–9 AM · GRWM — Half-zip hoodie {toggle="true"}
+`f9e0e9e7-ffce-4cd5-b0f1-45ab0e083ca0` · Marketing Studio
+1. **Mon-AM-1 Mirror quarter-zip** — Bedroom mirror, charcoal half-zip, slow zip pull, 360, cool neutral. 8s.
+2. **Mon-AM-2 Kitchen GRWM** — Cream/grey half-zip, iced coffee, zip tug, walk out. 9s.
+3. **Mon-AM-3 Elevator** — Metal mirror, mid zip, chain flash, slow turn, doors open. 8s.
+4. **Mon-AM-4 Car seat** — Zip in driver seat, step out full fit, golden hour. 10s.
+5. **Mon-AM-5 Closet grab** — Off hanger, zip up/down, nod, grab keys. 8s.
+### 12–2 PM · 3 ways to style — Half-zip {toggle="true"}
+`f9e0e9e7-ffce-4cd5-b0f1-45ab0e083ca0` · Marketing Studio
+1. **Mon-PM-1 Street · Smart · Night** — Warehouse / cafe / crosswalk, zip + layers change. 9–10s.
+2. **Mon-PM-2 Zip high · mid · off-shoulder** — Rooftop railing, golden hour. 9s.
+3. **Mon-PM-3 Layer sandwich** — Hoodie → +puffer → +denim jacket, walk-in per layer. 10s.
+4. **Mon-PM-4 Color triptych** — Charcoal, cream, green—SKU-true. 8s.
+5. **Mon-PM-5 Accessory pivot** — Cap+tote / beanie+chain / blazer over shoulders. 9s.
+### 6–9 PM · Haul — Graphic tracksuit {toggle="true"}
+`2b82c7d9-ec31-4d96-9188-8fb884599b68` · Kling 3.0 / Seedance 2.0
+1. **Mon-Eve-1 Table rip-open** — Hoodie + pants reveal, waistband thumb. 10s.
+2. **Mon-Eve-2 Couch try-on** — Tissue ASMR, full set on, crossed arms. 9s.
+3. **Mon-Eve-3 Trunk POV** — Package to bedroom 360, print sharp. 10s.
+4. **Mon-Eve-4 Texture macro → fit** — Fleece pinch, neon hallway walk. 8s.
+5. **Mon-Eve-5 Stack reveal** — Box → hanger spin → mirror, cart point. 10s.
+---
+## Swap-ins — Support 1 · HOMUG cargo
+### HOMUG · 7–9 AM pocket GRWM {toggle="true"}
+`64a2fe02-0ca2-4f92-b1f6-adee3d188afe`
+1. **S1-AM-1** Pocket GRWM mirror · 2. **S1-AM-2** Waist-down pocket depth · 3. **S1-AM-3** Garage pocket pat walk · 4. **S1-AM-4** Belt + ankle drawstring · 5. **S1-AM-5** Hook grab step-in
+### HOMUG · 12–2 PM 3 ways {toggle="true"}
+1. **S1-PM-1** Street / work / night · 2. **S1-PM-2** Tuck variations · 3. **S1-PM-3** Paired with Hero A/B tops · 4. **S1-PM-4** Color triptych · 5. **S1-PM-5** Carabiner + phone pocket tour
+### HOMUG · 6–9 PM haul / deal {toggle="true"}
+1. **S1-Eve-1** Unfold + fabric macro · 2. **S1-Eve-2** Under $20 pocket tour · 3. **S1-Eve-3** vs old joggers · 4. **S1-Eve-4** Water bead wipe · 5. **S1-Eve-5** Flat lay + cart pin
+---
+## Swap-ins — Support 2 · Vortex denim
+### Vortex · 7–9 AM denim GRWM {toggle="true"}
+`8e0ae6c3-4cc8-4d44-8f93-c973bf37d73e`
+1. **S2-AM-1** Stack over Jordan 4s · 2. **S2-AM-2** Rip detail to full fit · 3. **S2-AM-3** Pull-on + hoodie · 4. **S2-AM-4** Low angle rise · 5. **S2-AM-5** One jean three shoes
+### Vortex · 12–2 PM 3 ways {toggle="true"}
+<!--NOTION_CHUNK_SPLIT-->

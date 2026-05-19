@@ -1,0 +1,223 @@
+
+<style>
+  * { box-sizing: border-box; }
+  .page { padding: 1rem 0; }
+  .page-title { font-size: 18px; font-weight: 500; margin: 0 0 2px; color: var(--color-text-primary); }
+  .page-sub { font-size: 13px; color: var(--color-text-secondary); margin: 0 0 20px; }
+
+  .product-grid { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 10px; margin-bottom: 20px; }
+  .product-card { background: var(--color-background-primary); border: 0.5px solid var(--color-border-tertiary); border-radius: var(--border-radius-lg); padding: 14px; }
+  .product-card.hero { border: 2px solid var(--color-border-info); }
+  .product-type-badge { font-size: 10px; font-weight: 500; padding: 2px 8px; border-radius: 4px; display: inline-block; margin-bottom: 8px; }
+  .badge-hero { background: var(--color-background-info); color: var(--color-text-info); }
+  .badge-support { background: #E1F5EE; color: #085041; }
+  .badge-wild { background: #FAEEDA; color: #633806; }
+  @media (prefers-color-scheme: dark) {
+    .badge-support { background: #04342C; color: #9FE1CB; }
+    .badge-wild { background: #412402; color: #FAC775; }
+  }
+  .product-name { font-size: 14px; font-weight: 500; color: var(--color-text-primary); margin-bottom: 4px; }
+  .product-videos { font-size: 12px; color: var(--color-text-secondary); margin-bottom: 10px; }
+  .format-list { display: flex; flex-direction: column; gap: 4px; }
+  .format-row { display: flex; align-items: center; gap: 8px; font-size: 11px; }
+  .format-dot { width: 6px; height: 6px; border-radius: 50%; flex-shrink: 0; }
+  .fd-purple { background: #7F77DD; } .fd-blue { background: #378ADD; }
+  .fd-teal { background: #1D9E75; } .fd-amber { background: #BA7517; }
+  .fd-coral { background: #D85A30; } .fd-pink { background: #D4537E; }
+  .fd-green { background: #639922; }
+  .format-name { color: var(--color-text-secondary); }
+  .format-day { margin-left: auto; font-size: 10px; color: var(--color-text-tertiary); }
+
+  .rotation-title { font-size: 15px; font-weight: 500; color: var(--color-text-primary); margin: 0 0 10px; }
+  .week-table { width: 100%; border-collapse: collapse; font-size: 11px; margin-bottom: 20px; }
+  .week-table th { text-align: left; padding: 6px 10px; font-weight: 500; font-size: 11px; color: var(--color-text-secondary); background: var(--color-background-secondary); border-bottom: 0.5px solid var(--color-border-tertiary); }
+  .week-table td { padding: 7px 10px; border-bottom: 0.5px solid var(--color-border-tertiary); color: var(--color-text-primary); vertical-align: top; line-height: 1.5; }
+  .week-table tr:last-child td { border-bottom: none; }
+  .p-hero { font-weight: 500; color: var(--color-text-info); }
+  .p-support { color: #085041; }
+  .p-wild { color: #633806; }
+  @media (prefers-color-scheme: dark) {
+    .p-support { color: #9FE1CB; }
+    .p-wild { color: #FAC775; }
+  }
+
+  .rule-block { background: var(--color-background-secondary); border-radius: var(--border-radius-md); padding: 12px 14px; margin-bottom: 10px; }
+  .rule-title { font-size: 12px; font-weight: 500; color: var(--color-text-primary); margin-bottom: 6px; display: flex; align-items: center; gap: 6px; }
+  .rule-body { font-size: 11px; color: var(--color-text-secondary); line-height: 1.6; }
+
+  .swap-box { background: var(--color-background-primary); border: 0.5px solid var(--color-border-tertiary); border-radius: var(--border-radius-lg); padding: 14px; margin-bottom: 10px; }
+  .swap-title { font-size: 13px; font-weight: 500; color: var(--color-text-primary); margin-bottom: 8px; }
+  .swap-row { display: flex; align-items: flex-start; gap: 8px; margin-bottom: 6px; font-size: 11px; color: var(--color-text-secondary); }
+  .swap-num { width: 18px; height: 18px; border-radius: 50%; background: var(--color-background-secondary); border: 0.5px solid var(--color-border-tertiary); display: flex; align-items: center; justify-content: center; font-size: 10px; font-weight: 500; flex-shrink: 0; color: var(--color-text-secondary); }
+
+  .metrics { display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap: 8px; margin-top: 4px; }
+  .metric { background: var(--color-background-secondary); border-radius: var(--border-radius-md); padding: 10px 12px; }
+  .metric-val { font-size: 20px; font-weight: 500; color: var(--color-text-primary); }
+  .metric-label { font-size: 11px; color: var(--color-text-secondary); margin-top: 2px; }
+</style>
+
+<div class="page">
+  <h2 class="sr-only">TikTok Shop fashion product rotation schedule for 21 videos per week</h2>
+  <p class="page-title">Product rotation schedule</p>
+  <p class="page-sub">3–5 products per week · 21 video slots · Clothing focus</p>
+
+  <p style="font-size:13px; font-weight:500; color:var(--color-text-primary); margin:0 0 10px;">Weekly product lineup</p>
+
+  <div class="product-grid">
+    <div class="product-card hero">
+      <span class="product-type-badge badge-hero">Hero product 1</span>
+      <div class="product-name">Best seller / new arrival A</div>
+      <div class="product-videos">8 videos this week</div>
+      <div class="format-list">
+        <div class="format-row"><span class="format-dot fd-purple"></span><span class="format-name">UGC outfit hook (GRWM)</span><span class="format-day">Mon AM</span></div>
+        <div class="format-row"><span class="format-dot fd-teal"></span><span class="format-name">3 ways to style it</span><span class="format-day">Mon PM</span></div>
+        <div class="format-row"><span class="format-dot fd-blue"></span><span class="format-name">Virtual Try-On</span><span class="format-day">Tue PM</span></div>
+        <div class="format-row"><span class="format-dot fd-amber"></span><span class="format-name">Customer fit review</span><span class="format-day">Tue AM</span></div>
+        <div class="format-row"><span class="format-dot fd-teal"></span><span class="format-name">Dress up or down</span><span class="format-day">Wed AM</span></div>
+        <div class="format-row"><span class="format-dot fd-blue"></span><span class="format-name">Size range Try-On</span><span class="format-day">Thu AM</span></div>
+        <div class="format-row"><span class="format-dot fd-purple"></span><span class="format-name">Tonight's fit check</span><span class="format-day">Fri PM</span></div>
+        <div class="format-row"><span class="format-dot fd-teal"></span><span class="format-name">5 outfits, 1 piece</span><span class="format-day">Sun PM</span></div>
+      </div>
+    </div>
+    <div class="product-card hero">
+      <span class="product-type-badge badge-hero">Hero product 2</span>
+      <div class="product-name">Best seller / new arrival B</div>
+      <div class="product-videos">7 videos this week</div>
+      <div class="format-list">
+        <div class="format-row"><span class="format-dot fd-coral"></span><span class="format-name">Haul reveal</span><span class="format-day">Mon PM</span></div>
+        <div class="format-row"><span class="format-dot fd-pink"></span><span class="format-name">Texture &amp; drape shot</span><span class="format-day">Tue PM</span></div>
+        <div class="format-row"><span class="format-dot fd-purple"></span><span class="format-name">POV: new delivery</span><span class="format-day">Wed PM</span></div>
+        <div class="format-row"><span class="format-dot fd-amber"></span><span class="format-name">"Worth every penny"</span><span class="format-day">Thu PM</span></div>
+        <div class="format-row"><span class="format-dot fd-teal"></span><span class="format-name">Weekend outfit inspo</span><span class="format-day">Fri AM</span></div>
+        <div class="format-row"><span class="format-dot fd-blue"></span><span class="format-name">Try-on for the event</span><span class="format-day">Sat PM</span></div>
+        <div class="format-row"><span class="format-dot fd-amber"></span><span class="format-name">Last units warning</span><span class="format-day">Sat PM</span></div>
+      </div>
+    </div>
+    <div class="product-card">
+      <span class="product-type-badge badge-support">Supporting product 1</span>
+      <div class="product-name">Mid-tier item to test</div>
+      <div class="product-videos">3 videos this week</div>
+      <div class="format-list">
+        <div class="format-row"><span class="format-dot fd-coral"></span><span class="format-name">Full haul drop</span><span class="format-day">Wed PM</span></div>
+        <div class="format-row"><span class="format-dot fd-coral"></span><span class="format-name">Saturday haul</span><span class="format-day">Sat AM</span></div>
+        <div class="format-row"><span class="format-dot fd-pink"></span><span class="format-name">Friday deal drop</span><span class="format-day">Fri PM</span></div>
+      </div>
+    </div>
+    <div class="product-card">
+      <span class="product-type-badge badge-support">Supporting product 2</span>
+      <div class="product-name">Complementary piece</div>
+      <div class="product-videos">2 videos this week</div>
+      <div class="format-list">
+        <div class="format-row"><span class="format-dot fd-green"></span><span class="format-name">Editorial lookbook</span><span class="format-day">Thu PM</span></div>
+        <div class="format-row"><span class="format-dot fd-green"></span><span class="format-name">Brand story fit</span><span class="format-day">Sun AM</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="product-card" style="margin-bottom:20px;">
+    <span class="product-type-badge badge-wild">Wildcard product</span>
+    <div class="product-name">New item you want to test</div>
+    <div class="product-videos">1 video this week — gauge reaction before committing more content</div>
+    <div class="format-list">
+      <div class="format-row"><span class="format-dot fd-pink"></span><span class="format-name">Sunday scroll stopper · Hyper Motion</span><span class="format-day">Sun PM</span></div>
+    </div>
+  </div>
+
+  <p class="rotation-title">Day-by-day product map</p>
+  <table class="week-table">
+    <thead>
+      <tr>
+        <th>Day</th>
+        <th>Morning</th>
+        <th>Afternoon</th>
+        <th>Evening</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="font-weight:500">Mon</td>
+        <td><span class="p-hero">Hero A</span></td>
+        <td><span class="p-hero">Hero A</span></td>
+        <td><span class="p-hero">Hero B</span></td>
+      </tr>
+      <tr>
+        <td style="font-weight:500">Tue</td>
+        <td><span class="p-hero">Hero A</span></td>
+        <td><span class="p-hero">Hero A</span></td>
+        <td><span class="p-hero">Hero B</span></td>
+      </tr>
+      <tr>
+        <td style="font-weight:500">Wed</td>
+        <td><span class="p-hero">Hero A</span></td>
+        <td><span class="p-hero">Hero B</span></td>
+        <td><span class="p-support">Support 1</span></td>
+      </tr>
+      <tr>
+        <td style="font-weight:500">Thu</td>
+        <td><span class="p-hero">Hero A</span></td>
+        <td><span class="p-hero">Hero B</span></td>
+        <td><span class="p-support">Support 2</span></td>
+      </tr>
+      <tr>
+        <td style="font-weight:500">Fri</td>
+        <td><span class="p-hero">Hero B</span></td>
+        <td><span class="p-support">Support 1</span></td>
+        <td><span class="p-hero">Hero A</span></td>
+      </tr>
+      <tr>
+        <td style="font-weight:500">Sat</td>
+        <td><span class="p-support">Support 1</span></td>
+        <td><span class="p-hero">Hero B</span></td>
+        <td><span class="p-hero">Hero B</span></td>
+      </tr>
+      <tr>
+        <td style="font-weight:500">Sun</td>
+        <td><span class="p-support">Support 2</span></td>
+        <td><span class="p-hero">Hero A</span></td>
+        <td><span class="p-wild">Wildcard</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p class="rotation-title">Weekly rotation rules</p>
+  <div class="rule-block">
+    <div class="rule-title"><i class="ti ti-refresh" style="font-size:14px" aria-hidden="true"></i> When to rotate a product out</div>
+    <div class="rule-body">After 2 weeks as a hero, move it to supporting or retire it — even good products get audience fatigue. Always have the next hero product ready to step up.</div>
+  </div>
+  <div class="rule-block">
+    <div class="rule-title"><i class="ti ti-arrow-up" style="font-size:14px" aria-hidden="true"></i> When to promote a product up</div>
+    <div class="rule-body">If the wildcard gets strong click-through or saves in its first video, move it to supporting next week. If a supporting product's review video converts well, make it a hero.</div>
+  </div>
+  <div class="rule-block">
+    <div class="rule-title"><i class="ti ti-chart-bar" style="font-size:14px" aria-hidden="true"></i> Friday analytics check</div>
+    <div class="rule-body">Every Friday, check Shop click-through rate per product. The hero with the highest CTR gets the Friday deal drop and Spark Ad budget. The weakest supporting product gets swapped out Sunday.</div>
+  </div>
+
+  <div class="swap-box">
+    <div class="swap-title">Sunday product prep checklist</div>
+    <div class="swap-row"><span class="swap-num">1</span><span>Pick your 2 hero products — best sellers or newest drops with strong photos</span></div>
+    <div class="swap-row"><span class="swap-num">2</span><span>Pick 2 supporting products — items that pair well with the heroes or need exposure</span></div>
+    <div class="swap-row"><span class="swap-num">3</span><span>Pick 1 wildcard — something new you haven't posted before</span></div>
+    <div class="swap-row"><span class="swap-num">4</span><span>Upload clean product photos + lifestyle shots to Higgsfield for all 5</span></div>
+    <div class="swap-row"><span class="swap-num">5</span><span>Batch generate all 21 videos, tag each to the correct TikTok Shop listing before scheduling</span></div>
+  </div>
+
+  <div class="metrics">
+    <div class="metric">
+      <div class="metric-val">5</div>
+      <div class="metric-label">Products per week</div>
+    </div>
+    <div class="metric">
+      <div class="metric-val">15</div>
+      <div class="metric-label">Products per month</div>
+    </div>
+    <div class="metric">
+      <div class="metric-val">8</div>
+      <div class="metric-label">Videos · hero product</div>
+    </div>
+    <div class="metric">
+      <div class="metric-val">1</div>
+      <div class="metric-label">Wildcard test/week</div>
+    </div>
+  </div>
+</div>

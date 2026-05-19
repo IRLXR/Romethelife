@@ -1,0 +1,104 @@
+3-shoe listicle).  
+**Viral:** one iconic shoe · stride weight · cool neutral · **Shots (9s):** Cinematic, not TikTok list format.
+
+### 12–2 PM · 3 ways to style stacked denim (5)
+
+1. **Mon-S2-PM-1** — **Hoodie / Flannel open / Leather jacket** — camo stacks constant. 9:16, 10s.
+2. **Mon-S2-PM-2** — **Cuff show / full stack / slight stack** — cuff roll tutorial without breaking stack aesthetic. 9:16, 9s.
+3. **Mon-S2-PM-3** — **Car lean / warehouse walk / rooftop** — same fit, three locations. 9:16, 10s.
+4. **Mon-S2-PM-4** — **Camo on camo vs camo + black top** — teach contrast. 9:16, 8s.
+5. **Mon-S2-PM-5** — **With Hero A half-zip layered** — denim is hero, zip pull in beat 2. 9:16, 9s.
+
+### 6–9 PM · Denim delivery / flex (5)
+
+1. **Mon-S2-Eve-1** — Package rip, denim folded in tissue, Rome holds waistband to light—camo print sharp. 9:16, 9s.
+2. **Mon-S2-Eve-2** — Try-on haul: step into jeans, jump-cut to full fit + AMG lean (aspirational). 9:16, 10s.
+3. **Mon-S2-Eve-3** — Macro: rip edge + stitch + stack at hem, cut to Rome walking alley neon. 9:16, 8s.
+4. **Mon-S2-Eve-4** — Before/after baggy jean vs Vortex stack silhouette split screen. 9:16, 8s.
+5. **Mon-S2-Eve-5** — Rome crouches—stack detail at ankle, stands, slow walk to camera, hands in pockets. 9:16, 9s.
+
+---
+
+## KZZ colorblock zip set — Monday variants
+
+### 7–9 AM · Set GRWM (5) — Rome style
+
+Colorblock reads **clean** in cool dark—never gym-bro hype.
+
+### Mon-W-AM-1 · Penthouse zip ritual
+
+**Hook:** Skyline pulse; Rome **zips navy/white colorblock** to mid-chest once—stop. No chin-up peacock.  
+**Viral:** one zip · color panels in teal light · stillness end · **Shots (9s):** Matching joggers, drawstring single tug, no smile.
+
+### Mon-W-AM-2 · Exotic car — set + door
+
+**Hook:** Rome beside matte black car in **full KZZ set**; opens door, pauses, looks past camera.  
+**Viral:** set reads as uniform · car frame · off-lens gaze · **Shots (9s):** Slow 90° turn max, not 360 spin.
+
+### Mon-W-AM-3 · Penthouse walk — blocks in motion
+
+**Hook:** Back to camera at glass; walk toward lens—**colorblock panels** appear in rim light.  
+**Viral:** walk-up curiosity · cinematic depth · neutral face front · **Shots (10s):** No bridge jog trope.
+
+### Mon-W-AM-4 · Penthouse sofa — zip down, stand
+
+**Hook:** Seated zip **down**; stand; zip to lock—same beat as Rome hero Mon-AM-5.  
+**Viral:** stillness · rise · ritual zip · **Shots (9s):** Wildcard energy but luxury pacing.
+
+### Mon-W-AM-5 · Night terrace edge (not café)
+
+**Hook:** Rome at penthouse terrace rail, city below; **hands in hoodie pocket**, slow turn.  
+**Viral:** height + bokeh · silent flex · full set SKU · **Shots (9s):** No “they stared” caption bait.
+
+### 12–2 PM · 3 ways · colorblock set (5)
+
+1. **Mon-W-PM-1** — **Zip high / mid / open over compression tee** — same set. 9:16, 9s.
+2. **Mon-W-PM-2** — **Court / street / airport lounge** — three backgrounds, one set. 9:16, 10s.
+3. **Mon-W-PM-3** — **Hood up / hood down / jacket over** — face framing changes. 9:16, 9s.
+4. **Mon-W-PM-4** — **Color variant triptych** (navy/white, grey/black, etc.) per listing. 9:16, 8s.
+5. **Mon-W-PM-5** — **With cross-body bag / with headphones / with sunglasses** — accessory only swaps. 9:16, 9s.
+
+### 6–9 PM · Set haul (5)
+
+1. **Mon-W-Eve-1** — Box opens: hoodie on top, joggers folded, colorblock panels to camera. 9:16, 10s.
+2. **Mon-W-Eve-2** — Rome on couch, peels tissue, holds both pieces together—“one cart outfit.” 9:16, 9s.
+3. **Mon-W-Eve-3** — Zip pull ASMR macro → full-body fit check spin. 9:16, 8s.
+4. **Mon-W-Eve-4** — Side-by-side mismatched old hoodie+joggers vs KZZ matching set. 9:16, 9s.
+5. **Mon-W-Eve-5** — Basketball under arm optional; full set + “free shipping” safe text zone lower third. 9:16, 10s.
+```
+
+## notion-monday-content.md
+
+```markdown
+<callout icon="📝" color="purple_bg">
+	**Monday · 5 prompts per slot** · Hero A/B on schedule · Support swap-ins for swaps & B-roll · 9:16 · 8–10s · Repo: `output/monday-2026-05-16/prompts.md`
+</callout>
+<callout icon="👤" color="gray_bg">
+	**Rome (on-camera):** masculine Black man, nonchalant confident energy—relaxed jaw, unbothered expression, slow deliberate movement, old-money / street-luxury ease, never timid or cutesy.
+</callout>
+**Quick pick:** AM = Mon-AM-3 · PM = Mon-PM-1 · Eve = Mon-Eve-4
+---
+## Hero lineup (scheduled Monday)
+### 7–9 AM · GRWM — Half-zip hoodie {toggle="true"}
+`f9e0e9e7-ffce-4cd5-b0f1-45ab0e083ca0` · Marketing Studio
+1. **Mon-AM-1 Mirror quarter-zip** — Bedroom mirror, charcoal half-zip, slow zip pull, 360, cool neutral. 8s.
+2. **Mon-AM-2 Kitchen GRWM** — Cream/grey half-zip, iced coffee, zip tug, walk out. 9s.
+3. **Mon-AM-3 Elevator** — Metal mirror, mid zip, chain flash, slow turn, doors open. 8s.
+4. **Mon-AM-4 Car seat** — Zip in driver seat, step out full fit, golden hour. 10s.
+5. **Mon-AM-5 Closet grab** — Off hanger, zip up/down, nod, grab keys. 8s.
+### 12–2 PM · 3 ways to style — Half-zip {toggle="true"}
+`f9e0e9e7-ffce-4cd5-b0f1-45ab0e083ca0` · Marketing Studio
+1. **Mon-PM-1 Street · Smart · Night** — Warehouse / cafe / crosswalk, zip + layers change. 9–10s.
+2. **Mon-PM-2 Zip high · mid · off-shoulder** — Rooftop railing, golden hour. 9s.
+3. **Mon-PM-3 Layer sandwich** — Hoodie → +puffer → +denim jacket, walk-in per layer. 10s.
+4. **Mon-PM-4 Color triptych** — Charcoal, cream, green—SKU-true. 8s.
+5. **Mon-PM-5 Accessory pivot** — Cap+tote / beanie+chain / blazer over shoulders. 9s.
+### 6–9 PM · Haul — Graphic tracksuit {toggle="true"}
+`2b82c7d9-ec31-4d96-9188-8fb884599b68` · Kling 3.0 / Seedance 2.0
+1. **Mon-Eve-1 Table rip-open** — Hoodie + pants reveal, waistband thumb. 10s.
+2. **Mon-Eve-2 Couch try-on** — Tissue ASMR, full set on, crossed arms. 9s.
+3. **Mon-Eve-3 Trunk POV** — Package to bedroom 360, print sharp. 10s.
+4. **Mon-Eve-4 Texture macro → fit** — Fleece pinch, neon hallway walk. 8s.
+5. **Mon-Eve-5 Stack reveal** — Box → hanger spin → mirror, cart point. 10s.
+---
+## Swa

@@ -1,0 +1,54 @@
+---
+description: Higgsfield — estimate cost BEFORE running, then track actual credit usage after
+alwaysApply: true
+---
+
+# Higgsfield: Cost Estimate + Credit Usage Report
+
+## Pre-run cost estimate (MANDATORY)
+
+**Before submitting ANY Higgsfield job**, always:
+
+1. Run `higgsfield account status` to get the current balance.
+2. Check `higgsfield cost <job_set_type> [params]` or, if no cost command exists, use `higgsfield account transactions --size 5 --json` to find what recent similar jobs cost.
+3. Present the user with an estimate BEFORE running:
+
+```
+Estimated cost: ~12.50 credits (seedance_2_0, 1080p, 8s)
+Current balance: 4803.44 credits
+Balance after: ~4790.94 credits
+```
+
+4. **Wait for user confirmation** before submitting the job. Do not auto-run.
+5. If running multiple jobs in a workflow (e.g. image + video), show the combined estimate upfront.
+
+## Post-run credit report
+
+After each job completes:
+
+1. Run `higgsfield account status` again.
+2. Compute `credits_used = balance_before - balance_after`.
+3. Present a short table:
+
+```
+| # | Model             | Resolution | Duration | Status    | Credits Used |
+|---|-------------------|------------|----------|-----------|--------------|
+| 1 | seedance_2_0      | 1080p      | 8s       | completed | 12.50        |
+| 2 | nano_banana_2     | 4k         | —        | completed |  3.20        |
+```
+
+Then a summary line:
+
+```
+Session total: 15.70 credits used | Balance remaining: 4803.44
+```
+
+## Rules
+
+- **Always estimate before running** — never submit a job without telling the user the expected cost first.
+- **Always** report actuals after, even on failed/blocked jobs (they may still cost credits).
+- If multiple jobs run in a batch, report each individually plus the batch total.
+- When a job fails or is blocked (nsfw, ip_detected), note the status and still report any credit spend.
+- At the end of a multi-step workflow, show a cumulative session summary.
+- If `higgsfield account status` is unavailable or errors, note it and skip gracefully.
+- Flag cost patterns: if a cheaper model could achieve similar quality, mention it so the user can decide.

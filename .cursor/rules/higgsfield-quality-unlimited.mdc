@@ -1,0 +1,27 @@
+---
+description: Higgsfield — max quality, prefer unlimited over credits, best model when not unlimited
+alwaysApply: true
+---
+
+# Higgsfield: quality, unlimited allowance, and model choice
+
+When running **any** Higgsfield work in this project (`higgsfield` CLI, product-photoshoot, marketing-studio, soul-id, or the `.agents/skills/higgsfield-*` skills), follow this order of priorities.
+
+## 1. Prefer unlimited before credits
+
+- Before submitting jobs, use `higgsfield account status` (and `--json` if useful) so you know the signed-in plan and credit balance.
+- If the user’s plan includes **unlimited** (or allowance-backed) use for specific models or features, **choose those models and the parameter set that stays within unlimited** when they still meet the creative brief. Do not pick a cheaper or weaker model just to conserve credits when an unlimited-eligible option is good enough for the task.
+- If it is unclear which models are unlimited for this account, check in-repo notes (e.g. `higgsfield-products.md`) or ask the user once for how their plan maps to models—then default to **highest quality** as below.
+
+## 2. Highest quality settings by default
+
+- For each chosen `job_set_type`, run `higgsfield model get <job_set_type> --json` (once per model when needed) and use the **strongest allowed** resolution/quality/duration/audio options the schema supports (e.g. top `--quality` tier such as `2k`/`4k` where valid, `ultra` over `basic` for tiered video models, longest duration only when it improves the output and is allowed—not gratuitous length).
+- Do **not** downgrade quality, resolution, or model tier to save credits **unless** the user explicitly asks for cheaper/faster output, or the chosen model has no higher tier.
+
+## 3. When unlimited does not apply
+
+- If the best model for the brief is **not** covered by unlimited, still pick the **best-fit, highest-quality** model and parameters (per project skills and `model get`). Accept normal credit use; do not substitute a worse model solely to avoid credits.
+
+## 4. Coordination with skills
+
+- Follow task-specific routing in `.agents/skills/higgsfield-*.md` for *which* model to use; this rule governs **billing preference (unlimited first)** and **parameter quality**, not replacing specialist skills (e.g. product-photoshoot vs generic generate).

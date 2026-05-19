@@ -1,0 +1,284 @@
+
+<style>
+  * { box-sizing: border-box; }
+  .page { padding: 1rem 0; }
+  .page-title { font-size: 18px; font-weight: 500; margin: 0 0 2px; color: var(--color-text-primary); }
+  .page-sub { font-size: 13px; color: var(--color-text-secondary); margin: 0 0 20px; }
+  .day-block { background: var(--color-background-primary); border: 0.5px solid var(--color-border-tertiary); border-radius: var(--border-radius-lg); margin-bottom: 12px; overflow: hidden; }
+  .day-header { display: flex; align-items: center; gap: 10px; padding: 12px 16px 10px; border-bottom: 0.5px solid var(--color-border-tertiary); }
+  .day-label { font-size: 13px; font-weight: 500; color: var(--color-text-primary); }
+  .vid-count { font-size: 11px; color: var(--color-text-tertiary); margin-left: auto; }
+  .slot-row { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1px; background: var(--color-border-tertiary); }
+  .slot { background: var(--color-background-primary); padding: 12px 14px; }
+  .slot-time { font-size: 11px; font-weight: 500; margin-bottom: 6px; }
+  .slot-title { font-size: 13px; font-weight: 500; color: var(--color-text-primary); margin-bottom: 4px; }
+  .slot-format { font-size: 11px; color: var(--color-text-secondary); margin-bottom: 6px; line-height: 1.4; }
+  .slot-tool { display: inline-flex; align-items: center; gap: 4px; font-size: 10px; padding: 2px 6px; border-radius: 4px; border: 0.5px solid var(--color-border-tertiary); color: var(--color-text-secondary); background: var(--color-background-secondary); }
+  .tip { font-size: 11px; color: var(--color-text-secondary); padding: 8px 14px; background: var(--color-background-secondary); border-top: 0.5px solid var(--color-border-tertiary); line-height: 1.5; }
+  .legend { display: flex; flex-wrap: wrap; gap: 8px 16px; margin-bottom: 16px; }
+  .legend-item { display: flex; align-items: center; gap: 6px; font-size: 11px; color: var(--color-text-secondary); }
+  .dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+  .dot-purple { background: #7F77DD; }
+  .dot-teal { background: #1D9E75; }
+  .dot-coral { background: #D85A30; }
+  .dot-amber { background: #BA7517; }
+  .dot-pink { background: #D4537E; }
+  .dot-blue { background: #378ADD; }
+  .dot-green { background: #639922; }
+  .t-purple { color: #3C3489; } .t-teal { color: #085041; } .t-coral { color: #712B13; }
+  .t-amber { color: #633806; } .t-pink { color: #72243E; } .t-blue { color: #0C447C; }
+  .t-green { color: #27500A; }
+  @media (prefers-color-scheme: dark) {
+    .t-purple { color: #CECBF6; } .t-teal { color: #9FE1CB; } .t-coral { color: #F5C4B3; }
+    .t-amber { color: #FAC775; } .t-pink { color: #F4C0D1; } .t-blue { color: #B5D4F4; }
+    .t-green { color: #C0DD97; }
+  }
+  .metrics { display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap: 8px; margin-top: 16px; }
+  .metric { background: var(--color-background-secondary); border-radius: var(--border-radius-md); padding: 10px 12px; }
+  .metric-val { font-size: 20px; font-weight: 500; color: var(--color-text-primary); }
+  .metric-label { font-size: 11px; color: var(--color-text-secondary); margin-top: 2px; }
+  .workflow-box { margin-top: 12px; background: var(--color-background-secondary); border-radius: var(--border-radius-md); padding: 12px 14px; font-size: 12px; color: var(--color-text-secondary); }
+  .workflow-title { font-size: 13px; font-weight: 500; color: var(--color-text-primary); margin-bottom: 6px; }
+  .workflow-step { display: flex; align-items: flex-start; gap: 8px; margin-bottom: 5px; }
+  .workflow-num { font-size: 10px; font-weight: 500; width: 16px; height: 16px; border-radius: 50%; background: var(--color-background-primary); border: 0.5px solid var(--color-border-secondary); display: flex; align-items: center; justify-content: center; flex-shrink: 0; margin-top: 1px; color: var(--color-text-secondary); }
+</style>
+
+<div class="page">
+  <h2 class="sr-only">TikTok Shop fashion clothing 3-videos-per-day weekly ad plan</h2>
+  <p class="page-title">TikTok Shop · Fashion &amp; Clothing · 3 videos/day</p>
+  <p class="page-sub">21 videos/week · All formats clothing-specific · Higgsfield + TikTok</p>
+
+  <div class="legend">
+    <div class="legend-item"><span class="dot dot-purple"></span>UGC outfit reveal</div>
+    <div class="legend-item"><span class="dot dot-blue"></span>Virtual Try-On</div>
+    <div class="legend-item"><span class="dot dot-coral"></span>Haul / Unboxing</div>
+    <div class="legend-item"><span class="dot dot-teal"></span>Styling tutorial</div>
+    <div class="legend-item"><span class="dot dot-amber"></span>Social proof</div>
+    <div class="legend-item"><span class="dot dot-pink"></span>Hyper Motion lookbook</div>
+    <div class="legend-item"><span class="dot dot-green"></span>Brand / lifestyle spot</div>
+  </div>
+
+  <div class="day-block">
+    <div class="day-header">
+      <span class="day-label">Monday</span>
+      <span class="vid-count">3 videos</span>
+    </div>
+    <div class="slot-row">
+      <div class="slot">
+        <div class="slot-time t-purple">7–9 AM</div>
+        <div class="slot-title">GRWM outfit hook</div>
+        <div class="slot-format">UGC · "get ready with me" angle, avatar in outfit</div>
+        <span class="slot-tool"><i class="ti ti-player-play" style="font-size:10px" aria-hidden="true"></i> Marketing Studio</span>
+      </div>
+      <div class="slot">
+        <div class="slot-time t-teal">12–2 PM</div>
+        <div class="slot-title">3 ways to style it</div>
+        <div class="slot-format">Styling tutorial · same piece, 3 looks</div>
+        <span class="slot-tool"><i class="ti ti-player-play" style="font-size:10px" aria-hidden="true"></i> Marketing Studio</span>
+      </div>
+      <div class="slot">
+        <div class="slot-time t-coral">6–9 PM</div>
+        <div class="slot-title">Haul reveal</div>
+        <div class="slot-format">Unboxing · packaging open, fabric close-up</div>
+        <span class="slot-tool"><i class="ti ti-player-play" style="font-size:10px" aria-hidden="true"></i> Kling 3.0</span>
+      </div>
+    </div>
+    <div class="tip"><i class="ti ti-bulb" style="font-size:12px; vertical-align:-1px; margin-right:4px" aria-hidden="true"></i>GRWM is the top-performing clothing hook on TikTok — lead the week with it to seed the algorithm.</div>
+  </div>
+
+  <div class="day-block">
+    <div class="day-header">
+      <span class="day-label">Tuesday</span>
+      <span class="vid-count">3 videos</span>
+    </div>
+    <div class="slot-row">
+      <div class="slot">
+        <div class="slot-time t-amber">7–9 AM</div>
+        <div class="slot-title">Customer fit check</div>
+        <div class="slot-format">Product Review · real buyer quotes on fit &amp; quality</div>
+        <span class="slot-tool"><i class="ti ti-player-play" style="font-size:10px" aria-hidden="true"></i> Marketing Studio</span>
+      </div>
+      <div class="slot">
+        <div class="slot-time t-blue">12–2 PM</div>
+        <div class="slot-title">Try it on me</div>
+        <div class="slot-format">UGC Virtual Try-On · show fit on avatar body</div>
+        <span class="slot-tool"><i class="ti ti-player-play" style="font-size:10px" aria-hidden="true"></i> Marketing Studio</span>
+      </div>
+      <div class="slot">
+        <div class="slot-time t-pink">6–9 PM</div>
+        <div class="slot-title">Texture &amp; drape</div>
+        <div class="slot-format">Hyper Motion · fabric movement close-up</div>
+        <span class="slot-tool"><i class="ti ti-player-play" style="font-size:10px" aria-hidden="true"></i> Seedance 2.0</span>
+      </div>
+    </div>
+    <div class="tip"><i class="ti ti-bulb" style="font-size:12px; vertical-align:-1px; margin-right:4px" aria-hidden="true"></i>Fit anxiety kills clothing conversions. Reviews + Virtual Try-On back-to-back removes the biggest barrier to purchase.</div>
+  </div>
+
+  <div class="day-block">
+    <div class="day-header">
+      <span class="day-label">Wednesday</span>
+      <span class="vid-count">3 videos</span>
+    </div>
+    <div class="slot-row">
+      <div class="slot">
+        <div class="slot-time t-teal">7–9 AM</div>
+        <div class="slot-title">Dress it up or down</div>
+        <div class="slot-format">Styling tutorial · casual vs evening looks</div>
+        <span class="slot-tool"><i class="ti ti-player-play" style="font-size:10px" aria-hidden="true"></i> Marketing Studio</span>
+      </div>
+      <div class="slot">
+        <div class="slot-time t-purple">12–2 PM</div>
+        <div class="slot-title">POV: new delivery</div>
+        <div class="slot-format">UGC · unboxing reaction, first impression</div>
+        <span class="slot-tool"><i class="ti ti-player-play" style="font-size:10px" aria-hidden="true"></i> Marketing Studio</span>
+      </div>
+      <div class="slot">
+        <div class="slot-time t-coral">6–9 PM</div>
+        <div class="slot-title">Full haul drop</div>
+        <div class="slot-format">Unboxing · multiple pieces from same collection</div>
+        <span class="slot-tool"><i class="ti ti-player-play" style="font-size:10px" aria-hidden="true"></i> Kling 3.0</span>
+      </div>
+    </div>
+    <div class="tip"><i class="ti ti-bulb" style="font-size:12px; vertical-align:-1px; margin-right:4px" aria-hidden="true"></i>Showing versatility ("dress it up or down") increases perceived value and saves rate significantly.</div>
+  </div>
+
+  <div class="day-block">
+    <div class="day-header">
+      <span class="day-label">Thursday</span>
+      <span class="vid-count">3 videos</span>
+    </div>
+    <div class="slot-row">
+      <div class="slot">
+        <div class="slot-time t-blue">7–9 AM</div>
+        <div class="slot-title">Size range try-on</div>
+        <div class="slot-format">Virtual Try-On · show fit across sizes</div>
+        <span class="slot-tool"><i class="ti ti-player-play" style="font-size:10px" aria-hidden="true"></i> Marketing Studio</span>
+      </div>
+      <div class="slot">
+        <div class="slot-time t-amber">12–2 PM</div>
+        <div class="slot-title">"Worth every penny"</div>
+        <div class="slot-format">Product Review · quality &amp; value angle</div>
+        <span class="slot-tool"><i class="ti ti-player-play" style="font-size:10px" aria-hidden="true"></i> Marketing Studio</span>
+      </div>
+      <div class="slot">
+        <div class="slot-time t-green">6–9 PM</div>
+        <div class="slot-title">Editorial lookbook</div>
+        <div class="slot-format">Brand / lifestyle spot · aspirational setting</div>
+        <span class="slot-tool"><i class="ti ti-player-play" style="font-size:10px" aria-hidden="true"></i> Marketing Studio</span>
+      </div>
+    </div>
+    <div class="tip"><i class="ti ti-bulb" style="font-size:12px; vertical-align:-1px; margin-right:4px" aria-hidden="true"></i>Thursday night's editorial spot primes buyers emotionally before the weekend purchase window opens.</div>
+  </div>
+
+  <div class="day-block">
+    <div class="day-header">
+      <span class="day-label">Friday</span>
+      <span class="vid-count">3 videos</span>
+    </div>
+    <div class="slot-row">
+      <div class="slot">
+        <div class="slot-time t-teal">7–9 AM</div>
+        <div class="slot-title">Weekend outfit inspo</div>
+        <div class="slot-format">Styling tutorial · weekend / going-out looks</div>
+        <span class="slot-tool"><i class="ti ti-player-play" style="font-size:10px" aria-hidden="true"></i> Marketing Studio</span>
+      </div>
+      <div class="slot">
+        <div class="slot-time t-pink">12–2 PM</div>
+        <div class="slot-title">Friday deal drop</div>
+        <div class="slot-format">Hyper Motion · bold offer overlay, limited time</div>
+        <span class="slot-tool"><i class="ti ti-player-play" style="font-size:10px" aria-hidden="true"></i> Seedance 2.0</span>
+      </div>
+      <div class="slot">
+        <div class="slot-time t-purple">6–9 PM</div>
+        <div class="slot-title">Tonight's fit check</div>
+        <div class="slot-format">UGC · "what I'm wearing out tonight" hook</div>
+        <span class="slot-tool"><i class="ti ti-player-play" style="font-size:10px" aria-hidden="true"></i> Marketing Studio</span>
+      </div>
+    </div>
+    <div class="tip"><i class="ti ti-bulb" style="font-size:12px; vertical-align:-1px; margin-right:4px" aria-hidden="true"></i>"Tonight's fit" at 6–9 PM on Friday is peak clothing impulse buy time — urgency + relatable context converts hard.</div>
+  </div>
+
+  <div class="day-block">
+    <div class="day-header">
+      <span class="day-label">Saturday</span>
+      <span class="vid-count">3 videos</span>
+    </div>
+    <div class="slot-row">
+      <div class="slot">
+        <div class="slot-time t-coral">9–11 AM</div>
+        <div class="slot-title">Saturday haul</div>
+        <div class="slot-format">Unboxing · new arrivals, casual weekend energy</div>
+        <span class="slot-tool"><i class="ti ti-player-play" style="font-size:10px" aria-hidden="true"></i> Kling 3.0</span>
+      </div>
+      <div class="slot">
+        <div class="slot-time t-blue">2–4 PM</div>
+        <div class="slot-title">Try-on for the event</div>
+        <div class="slot-format">Virtual Try-On · occasion wear, date night, brunch</div>
+        <span class="slot-tool"><i class="ti ti-player-play" style="font-size:10px" aria-hidden="true"></i> Marketing Studio</span>
+      </div>
+      <div class="slot">
+        <div class="slot-time t-amber">7–9 PM</div>
+        <div class="slot-title">Last units warning</div>
+        <div class="slot-format">Product Review · scarcity + social proof combo</div>
+        <span class="slot-tool"><i class="ti ti-player-play" style="font-size:10px" aria-hidden="true"></i> Marketing Studio</span>
+      </div>
+    </div>
+    <div class="tip"><i class="ti ti-bulb" style="font-size:12px; vertical-align:-1px; margin-right:4px" aria-hidden="true"></i>Saturday shoppers are already in buying mode. Hit them with occasion-specific Try-On at 2 PM when they're planning their night.</div>
+  </div>
+
+  <div class="day-block">
+    <div class="day-header">
+      <span class="day-label">Sunday</span>
+      <span class="vid-count">3 videos</span>
+    </div>
+    <div class="slot-row">
+      <div class="slot">
+        <div class="slot-time t-green">10 AM–12 PM</div>
+        <div class="slot-title">Brand story fit</div>
+        <div class="slot-format">Brand lifestyle spot · "this is who wears us" angle</div>
+        <span class="slot-tool"><i class="ti ti-player-play" style="font-size:10px" aria-hidden="true"></i> Marketing Studio</span>
+      </div>
+      <div class="slot">
+        <div class="slot-time t-teal">2–4 PM</div>
+        <div class="slot-title">Style it for the week</div>
+        <div class="slot-format">Styling tutorial · 5 outfits, 1 piece, work week</div>
+        <span class="slot-tool"><i class="ti ti-player-play" style="font-size:10px" aria-hidden="true"></i> Marketing Studio</span>
+      </div>
+      <div class="slot">
+        <div class="slot-time t-pink">7–9 PM</div>
+        <div class="slot-title">Sunday scroll stopper</div>
+        <div class="slot-format">Hyper Motion · cinematic fabric &amp; movement</div>
+        <span class="slot-tool"><i class="ti ti-player-play" style="font-size:10px" aria-hidden="true"></i> Seedance 2.0</span>
+      </div>
+    </div>
+    <div class="tip"><i class="ti ti-bulb" style="font-size:12px; vertical-align:-1px; margin-right:4px" aria-hidden="true"></i>"5 outfits, 1 piece" tutorials are the most-saved clothing format on TikTok — perfect for the Sunday planning mindset.</div>
+  </div>
+
+  <div class="metrics">
+    <div class="metric">
+      <div class="metric-val">21</div>
+      <div class="metric-label">Videos per week</div>
+    </div>
+    <div class="metric">
+      <div class="metric-val">84</div>
+      <div class="metric-label">Videos per month</div>
+    </div>
+    <div class="metric">
+      <div class="metric-val">7</div>
+      <div class="metric-label">Clothing formats</div>
+    </div>
+    <div class="metric">
+      <div class="metric-val">3</div>
+      <div class="metric-label">Post times daily</div>
+    </div>
+  </div>
+
+  <div class="workflow-box">
+    <div class="workflow-title">Sunday batch production workflow</div>
+    <div class="workflow-step"><span class="workflow-num">1</span><span>Upload all clothing photos &amp; product images to Higgsfield — clean background + lifestyle shots</span></div>
+    <div class="workflow-step"><span class="workflow-num">2</span><span>Generate all 21 videos: UGC/Review/Tutorial via Marketing Studio, Hauls via Kling 3.0, Hyper Motion via Seedance 2.0</span></div>
+    <div class="workflow-step"><span class="workflow-num">3</span><span>Export at 1080p 9:16 — add captions, trending audio &amp; size/fit text overlays in TikTok editor</span></div>
+    <div class="workflow-step"><span class="workflow-num">4</span><span>Schedule all posts in TikTok Studio. Tag each item directly to your TikTok Shop product listing</span></div>
+    <div class="workflow-step"><span class="workflow-num">5</span><span>Friday: review analytics — turn top 2 performers into Spark Ads with a $10–20 boost</span></div>
+  </div>
+</div>

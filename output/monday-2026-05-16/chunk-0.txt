@@ -1,0 +1,112 @@
+<callout icon="📄" color="blue_bg">
+	**Raw markdown** synced from repo · May 16, 2026 · Source: `output/monday-2026-05-16/`
+</callout>
+
+## prompts.md
+
+```markdown
+# Monday prompts — 5 per time slot
+
+**Week of May 16, 2026** · 3 posts/day · 9:16 vertical · 8–10s unless noted  
+**Monday map:** 7–9 AM = Hero A (half-zip) · 12–2 PM = Hero A (half-zip) · 6–9 PM = Hero B (tracksuit)
+
+**Rome style (all GRWM):** masculine Black man, **teal-tipped dreadlock bun**, same face. Miami penthouse **night** (skyline bokeh, cool teal, marble) *or* **matte black exotic** at curb. Nonchalant—relaxed jaw, half-lidded eyes, **no smile**, easy hands, slow moves. **No** POV spam text, bedroom-influencer, elevator/coffee tropes, or hype grins.
+
+
+| Product                             | Higgsfield ID                          |
+| ----------------------------------- | -------------------------------------- |
+| Half-zip essentials hoodie (Hero A) | `f9e0e9e7-ffce-4cd5-b0f1-45ab0e083ca0` |
+| Graphic tracksuit set (Hero B)      | `2b82c7d9-ec31-4d96-9188-8fb884599b68` |
+
+
+**Model routing:** AM + afternoon → `marketing_studio_video` (UGC / styling) · Evening haul → `kling_3_0` or `seedance_2_0` (unboxing motion)
+
+---
+
+## 7–9 AM · GRWM — Rome style (Hero A)
+
+**Rome GRWM is not bedroom-influencer energy.** It is **quiet luxury fit-check**: Miami penthouse at night *or* matte black exotic at the curb. Slow, unbothered, **no smile**, no POV spam text, no frantic cuts.
+
+**Product:** Half-zip drop-shoulder essentials hoodie · `f9e0e9e7-ffce-4cd5-b0f1-45ab0e083ca0`  
+**Model:** `marketing_studio_video` or `text2image_soul_v2` + Rome soul `14911b81-0038-4fa2-9b93-2198b46ca808` + `rome-fitcheck-anchor.png` when still  
+**Rome core (always):** masculine Black man, **teal-tipped dreadlock bun**, same face. Relaxed jaw, **half-lidded steady eyes**, cool neutral, **NO smile**, never timid or cutesy. Easy hands—pockets, one slow zip, collar touch. Old-money / street-luxury ease.
+
+**Settings (alternate across the 5):**
+
+- **Penthouse:** Miami high-rise night, floor-to-ceiling glass, Brickell skyline bokeh, cool dark interior, blue-teal ambient, marble, cinematic 9:16 still.
+- **Exotic car:** Matte all-black supercar wedge at night, city rim light, Rome leans shoulder or hands in pockets—unhurried.
+
+**Rome viral elements (pick 3 each — not TikTok trend bait):**
+
+1. **Cinematic cold open** — skyline bokeh or car silhouette before Rome moves
+2. **Silent authority** — he does not perform for camera; looks through or past lens
+3. **One ritual gesture** — single zip stop, collar two-finger adjust, pocket slide
+4. **Cool-dark grade** — teal shadow, rim light on fleece and face
+5. **Loop on stillness** — opens and closes on same lean / same glass reflection
+
+---
+
+### Mon-AM-1 · Penthouse glass GRWM *(quick pick)*
+
+**Hook (0–2s):** No loud text. **Brickell bokeh pulses** in floor-to-ceiling glass; Rome’s reflection already in frame, half-zip at mid-chest—he was ready before you scrolled.
+
+
+| #   | Rome viral element      | Execution                                               |
+| --- | ----------------------- | ------------------------------------------------------- |
+| 1   | **Cinematic cold open** | 1s of **only skyline + reflection**, then Rome turns    |
+| 2   | **One ritual gesture**  | One slow **zip to sternum**, stop—hands fall to pockets |
+| 3   | **Silent authority**    | Eyes steady, half-lidded; **no talking, no grin**       |
+
+
+**Shot-by-shot (9s):**  
+0–2s: Wide—Rome small in frame beside glass, charcoal oversized half-zip, black joggers, white lows, teal-tipped bun. Cool teal ambient, deep shadow.  
+2–4s: Medium—two-finger **collar adjust**, drop-shoulder fleece catches rim light.  
+4–6s: Slow **quarter turn** toward camera; hoodie drape and SKU silhouette clear.  
+6–8s: Full-body head-to-toe; hands in pockets, chin level, unbothered.  
+8–9s: Hold still—same reflection as opening (loop). Cart pin lower third only if needed.
+
+**On-screen text (optional, minimal):** `no rush.` or none  
+**Caption:** Brickell fit check · quarter zip · shop link  
+**Audio:** low city hum, no hype VO
+
+---
+
+### Mon-AM-2 · Exotic car curb GRWM
+
+**Hook (0–2s):** **Car door closes** off-screen (weighted thunk); camera finds Rome already leaning matte black supercar, half-zip in cream or charcoal.
+
+
+| #   | Rome viral element          | Execution                                               |
+| --- | --------------------------- | ------------------------------------------------------- |
+| 1   | **Status without shouting** | Car = frame, Rome = calm owner energy                   |
+| 2   | **One ritual gesture**      | Slow **zip up** while leaning one shoulder on door line |
+| 3   | **Cool-dark grade**         | Gloss black paint + teal city rim on jawline            |
+
+
+**Shot-by-shot (9s):**  
+0–2s: Low angle—car wedge silhouette, Rome’s sneakers and stacked hem, then tilt up to hood and face.  
+2–5s: Waist-up—half-zip texture sharp, chain optional under zip, **relaxed jaw**.  
+5–7s: Rome **pushes off car** with easy confidence (not eager), 3 slow steps toward lens.  
+7–9s: Stop, slight head tilt down then level—cool neutral. Hands in pockets.  
+Never cheesy point at camera.
+
+**On-screen text:** none or `night uniform.`  
+**Caption:** Car fit · drop-shoulder zip  
+**Audio:** distant traffic, single door thunk
+
+---
+
+### Mon-AM-3 · Penthouse walk-from-window
+
+**Hook (0–2s):** Rome **back to camera** at the window (skyline); he walks toward lens—curiosity: what does the fit look like front-on?
+
+
+| #   | Rome viral element           | Execution                             |
+| --- | ---------------------------- | ------------------------------------- |
+| 1   | **Curiosity gap**            | Back-of-head bun + shoulders first    |
+| 2   | **Transformation in motion** | Walk reveals **drop-shoulder** volume |
+| 3   | **Cinematic scale**          | Penthouse depth—quiet wealth          |
+
+
+**Shot-by-shot (10s):**  
+0–3s: Silhouette walk from glass, charcoal

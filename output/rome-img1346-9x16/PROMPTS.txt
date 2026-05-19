@@ -1,0 +1,44 @@
+Higgsfield Nano Banana Pro (CLI: nano_banana_2) — Rome + IMG_1346 first 30 frames
+================================================================================
+
+Source: first 30 frames exported from IMG_1346.MOV (~1s at 30fps). Reference for
+the generation run: reference_frame_middle_of_first30.png (frame 15 / n=14).
+
+Aspect ratio: 9:16. Resolution for this job: 4k (highest tier in model schema).
+
+Master prompt (identity + place — edit names/details as you like)
+------------------------------------------------------------------
+Ultra-photoreal vertical travel photograph, 9:16. Rome, Italy: Roman Forum and
+Colosseum in golden-hour light, warm sunbeams, subtle haze, cinematic depth,
+sharp marble and brick textures. Same person as the reference image: preserve
+face identity, hair, outfit colors/materials, skin tone, body proportions;
+natural candid pose looking toward the ruins, editorial travel style. Full-frame
+35mm look, gentle background sharpness on monuments, tasteful color grade, no
+text, no watermark, anatomically correct hands, no extra limbs.
+
+Shorter variant (if you rerun and hit length limits)
+-----------------------------------------------------
+Photoreal 9:16 Rome golden hour, Colosseum and Forum; keep the reference person
+identical (face, hair, clothes); candid travel portrait; cinematic light, no
+text, no watermark.
+
+Negative-style hints (append as "Avoid: ..." if the model accepts plain text)
+-------------------------------------------------------------------------------
+Avoid: cartoon, plastic skin, warped architecture, duplicate faces, mangled hands,
+random text overlays, logos, low-res, oversharpened HDR halos.
+
+Note on Soul-ID vs this run
+---------------------------
+Nano Banana Pro does not take --soul-id. Identity here comes from the reference
+frame (same practical idea as reference-driven generation). Full Soul Character
+training is separate: higgsfield soul-id create ... then text2image_soul_v2.
+
+Credits
+-------
+Cloud generation uses your Higgsfield account balance; there is no separate
+"free Nano Banana Pro unlimited" bypass in the CLI.
+
+Last run (Nano Banana Pro / nano_banana_2, 9:16, resolution 4k)
+---------------------------------------------------------------
+Local file: rome_nano_banana_pro_9x16_result.png
+Cloud URL: https://d8j0ntlcm91z4.cloudfront.net/user_36qUG9ViEiTTb1uSQP8OYOk94zV/hf_20260511_000136_5a7b3977-0e9a-450c-9c9c-3270bc951cca.png
